@@ -1,0 +1,639 @@
+# Muhammad Ihlasul Amal <ihlasulamal26@gmail.com>, 2024, 2026.
+# Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-19 21:44+0000\n"
+"PO-Revision-Date: 2026-02-21 03:54+0000\n"
+"Last-Translator: Muhammad Ihlasul Amal <ihlasulamal26@gmail.com>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/omp/"
+"submission/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "submission.upload.selectComponent"
+msgstr "Pilih komponen"
+
+msgid "submission.title"
+msgstr "Judul Buku"
+
+msgid "submission.select"
+msgstr "Pilih Submisi"
+
+msgid "submission.synopsis"
+msgstr "Sinopsis"
+
+msgid "submission.workflowType"
+msgstr "Jenis Submisi"
+
+msgid "submission.workflowType.description"
+msgstr ""
+"Monograf adalah karya yang seluruhnya ditulis oleh satu penulis atau lebih. "
+"Bunga rampai (edited volume) memiliki penulis yang berbeda untuk setiap bab ("
+"dengan rincian bab dimasukkan kemudian dalam proses ini.)"
+
+msgid "submission.workflowType.editedVolume.label"
+msgstr "Bunga Rampai (Edited Volume)"
+
+msgid "submission.workflowType.editedVolume"
+msgstr ""
+"Bunga Rampai (Edited Volume): Penulis dikaitkan dengan bab mereka sendiri."
+
+msgid "submission.workflowType.authoredWork"
+msgstr "Monograf: Penulis dikaitkan dengan buku secara keseluruhan."
+
+msgid "submission.workflowType.change"
+msgstr "Ubah"
+
+msgid "submission.editorName"
+msgstr "{$editorName} (penyunting)"
+
+msgid "submission.monograph"
+msgstr "Monograf"
+
+msgid "submission.published"
+msgstr "Siap Produksi"
+
+msgid "submission.fairCopy"
+msgstr "Naskah Final"
+
+msgid "submission.authorListSeparator"
+msgstr "; "
+
+msgid "submission.artwork.permissions"
+msgstr "Izin"
+
+msgid "submission.chapter"
+msgstr "Bab"
+
+msgid "submission.chapters"
+msgstr "Bab"
+
+msgid "submission.chapter.addChapter"
+msgstr "Tambah Bab"
+
+msgid "submission.chapter.editChapter"
+msgstr "Ubah Bab"
+
+msgid "submission.chapter.pages"
+msgstr "Halaman"
+
+msgid "submission.copyedit"
+msgstr "Penyuntingan Naskah"
+
+msgid "submission.publicationFormats"
+msgstr "Format Publikasi"
+
+msgid "submission.proofs"
+msgstr "Naskah Pratayang"
+
+msgid "submission.download"
+msgstr "Unduh"
+
+msgid "submission.sharing"
+msgstr "Bagikan"
+
+msgid "manuscript.submission"
+msgstr "Submisi Naskah"
+
+msgid "submission.round"
+msgstr "Tahap&nbsp;{$round}"
+
+msgid "submissions.queuedReview"
+msgstr "Dalam Peninjauan"
+
+msgid "manuscript.submissions"
+msgstr "Submisi Naskah"
+
+msgid "submission.metadata"
+msgstr "Metadata"
+
+msgid "submission.supportingAgencies"
+msgstr "Lembaga Pendukung"
+
+msgid "grid.action.addChapter"
+msgstr "Buat bab baru"
+
+msgid "grid.action.editChapter"
+msgstr "Ubah bab ini"
+
+msgid "grid.action.deleteChapter"
+msgstr "Hapus bab ini"
+
+msgid "submission.submit"
+msgstr "Mulai Submisi Buku Baru"
+
+msgid "submission.submit.newSubmissionMultiple"
+msgstr "Mulai Submisi Baru di"
+
+msgid "submission.submit.newSubmissionSingle"
+msgstr "Submisi Baru"
+
+msgid "submission.submit.upload"
+msgstr "Unggah Submisi"
+
+msgid "author.volumeEditor"
+msgstr "Penyunting Volume"
+
+msgid "author.isVolumeEditor"
+msgstr "Identifikasi kontributor sebagai penyunting bunga rampai ini."
+
+msgid "submission.submit.seriesPosition"
+msgstr "Posisi Seri"
+
+msgid "submission.submit.seriesPosition.description"
+msgstr "Contoh: Buku 2, Volume 2"
+
+msgid "submission.submit.privacyStatement"
+msgstr "Pernyataan Privasi"
+
+msgid "submission.submit.contributorRole"
+msgstr "Peran kontributor"
+
+msgid "submission.submit.submissionFile"
+msgstr "File Submisi"
+
+msgid "submission.submit.prepare"
+msgstr "Persiapkan"
+
+msgid "submission.submit.catalog"
+msgstr "Katalog"
+
+msgid "submission.submit.metadata"
+msgstr "Metadata"
+
+msgid "submission.submit.finishingUp"
+msgstr "Selesaikan"
+
+msgid "submission.submit.confirmation"
+msgstr "Konfirmasi"
+
+msgid "submission.submit.nextSteps"
+msgstr "Tahap Berikutnya"
+
+msgid "submission.submit.coverNote"
+msgstr "Catatan Pengantar untuk Penyunting"
+
+msgid "submission.submit.generalInformation"
+msgstr "Informasi Umum"
+
+msgid "submission.submit.whatNext.description"
+msgstr ""
+"Penerbit telah diberitahu tentang kiriman Anda, dan Anda telah dikirimi "
+"email berisi konfirmasi untuk arsip Anda. Setelah penyunting meninjau "
+"kiriman tersebut, mereka akan menghubungi Anda."
+
+msgid "submission.submit.checklistErrors"
+msgstr ""
+"Harap baca dan centang item dalam daftar periksa pengiriman.  Ada "
+"{$itemsRemaining} item yang belum dicentang."
+
+msgid "submission.submit.placement"
+msgstr "Penempatan Submisi"
+
+msgid "submission.submit.userGroup"
+msgstr "Ajukan dalam peran Saya sebagai ..."
+
+msgid "submission.submit.noContext"
+msgstr "Penerbit tempat submisi tidak dapat ditemukan."
+
+msgid "grid.chapters.title"
+msgstr "Bab"
+
+msgid "grid.copyediting.deleteCopyeditorResponse"
+msgstr "Hapus Unggahan Penyunting Naskah"
+
+msgid "submission.complete"
+msgstr "Disetujui"
+
+msgid "submission.incomplete"
+msgstr "Menunggu Persetujuan"
+
+msgid "submission.editCatalogEntry"
+msgstr "Entri"
+
+msgid "submission.catalogEntry.new"
+msgstr "Tambah Entri"
+
+msgid "submission.catalogEntry.add"
+msgstr "Tambah Pilihan ke Katalog"
+
+msgid "submission.catalogEntry.select"
+msgstr "Pilih monograf untuk ditambah ke katalog"
+
+msgid "submission.catalogEntry.selectionMissing"
+msgstr ""
+"Anda harus memilih paling tidak satu monograf untuk ditambah ke katalog."
+
+msgid "submission.catalogEntry.confirm"
+msgstr "Tambah buku ini ke katalog publik"
+
+msgid "submission.catalogEntry.confirm.required"
+msgstr ""
+"Harap konfirmasikan bahwa kiriman siap untuk dimasukkan ke dalam katalog."
+
+msgid "submission.catalogEntry.isAvailable"
+msgstr "Monograf ini siap untuk dimasukkan ke katalog publik."
+
+msgid "submission.catalogEntry.viewSubmission"
+msgstr "Lihat Submisi"
+
+msgid "submission.catalogEntry.chapterPublicationDates"
+msgstr "Tanggal Publikasi"
+
+msgid "submission.catalogEntry.disableChapterPublicationDates"
+msgstr "Semua bab akan menggunakan tanggal publikasi monograf."
+
+msgid "submission.catalogEntry.enableChapterPublicationDates"
+msgstr "Setiap bab mungkin memiliki tanggal publikasinya sendiri."
+
+msgid "submission.catalogEntry.monographMetadata"
+msgstr "Monograf"
+
+msgid "submission.catalogEntry.catalogMetadata"
+msgstr "Katalog"
+
+msgid "submission.catalogEntry.publicationMetadata"
+msgstr "Format Publikasi"
+
+msgid "submission.event.metadataPublished"
+msgstr "Metadata monograf disetujui untuk publikasi."
+
+msgid "submission.event.metadataUnpublished"
+msgstr "Metadata monograf tidak lagi dipublikasi."
+
+msgid "submission.event.publicationFormatMadeAvailable"
+msgstr "Format publikasi \"{$publicationFormatName}\" dibuat tersedia."
+
+msgid "submission.event.publicationFormatMadeUnavailable"
+msgstr "Format publikasi \"{$publicationFormatName}\" tidak lagi tersedia."
+
+msgid "submission.event.publicationFormatPublished"
+msgstr ""
+"Format publikasi \"{$publicationFormatName}\" disetujui untuk publikasi."
+
+msgid "submission.event.publicationFormatUnpublished"
+msgstr "Format publikasi \"{$publicationFormatName}\" tidak lagi dipublikasi."
+
+msgid "submission.event.catalogMetadataUpdated"
+msgstr "Metadata katalog diperbarui."
+
+msgid "submission.event.publicationMetadataUpdated"
+msgstr "Metadata format publikasi untuk \"{$formatName}\" telah diperbarui."
+
+msgid "submission.event.publicationFormatCreated"
+msgstr "Format publikasi \"{$formatName}\" telah dibuat."
+
+msgid "submission.event.publicationFormatRemoved"
+msgstr "Format publikasi \"{$formatName}\" telah dihapus."
+
+msgid "editor.submission.decision.sendExternalReview"
+msgstr "Kirim ke Peninjau Eksternal"
+
+msgid "workflow.review.externalReview"
+msgstr "Peninjau Eksternal"
+
+msgid "submission.upload.fileContents"
+msgstr "Komponen Submisi"
+
+msgid "submission.dependentFiles"
+msgstr "File Tambahan"
+
+msgid "submission.metadataDescription"
+msgstr ""
+"Spesifikasi ini didasarkan pada set metadata Dublin Core, standar "
+"internasional yang digunakan untuk mendeskripsikan konten terbitan."
+
+msgid "section.any"
+msgstr "Seri Apa Saja"
+
+msgid "submission.list.monographs"
+msgstr "Monograf"
+
+msgid "submission.list.countMonographs"
+msgstr "{$count} monograf"
+
+msgid "submission.list.itemsOfTotalMonographs"
+msgstr "{$count} dari {$total} monograf"
+
+msgid "submission.list.orderFeatures"
+msgstr "Atur Unggulan"
+
+msgid "submission.list.orderingFeatures"
+msgstr ""
+"Seret dan lepas atau ketuk tombol atas dan bawah untuk mengubah urutan "
+"unggulan di beranda."
+
+msgid "submission.list.orderingFeaturesSection"
+msgstr ""
+"Seret dan lepas atau ketuk tombol atas dan bawah untuk mengubah urutan "
+"unggulan di {$title}."
+
+msgid "submission.list.saveFeatureOrder"
+msgstr "Simpan Urutan"
+
+msgid "submission.list.viewEntry"
+msgstr "Lihat Entri"
+
+msgid "catalog.browseTitles"
+msgstr "{$numTitles} Judul"
+
+msgid "publication.catalogEntry"
+msgstr "Entri Katalog"
+
+msgid "publication.catalogEntry.success"
+msgstr "Detail entri katalog telah diperbarui."
+
+msgid "publication.invalidSeries"
+msgstr "Seri untuk publikasi ini tidak dapat ditemukan."
+
+msgid "publication.inactiveSeries"
+msgstr "{$series} (Tidak Aktif)"
+
+msgid "publication.required.issue"
+msgstr ""
+"Publikasi harus ditetapkan pada suatu terbitan sebelum dapat dipublikasikan."
+
+msgid "publication.publishedIn"
+msgstr "Diterbitkan di <a href=\"{$issueUrl}\">{$issueName}</a>."
+
+msgid "publication.publish.confirmation"
+msgstr ""
+"Semua persyaratan publikasi telah terpenuhi. Apakah Anda yakin ingin membuat "
+"entri katalog ini menjadi publik?"
+
+msgid "publication.scheduledIn"
+msgstr ""
+"Dijadwalkan untuk dipublikasikan dalam <a href=\"{$issueUrl}\""
+">{$issueName}</a>."
+
+msgid "submission.publication"
+msgstr "Publikasi"
+
+msgid "publication.status.published"
+msgstr "Diterbitkan"
+
+msgid "submission.status.scheduled"
+msgstr "Dijadwalkan"
+
+msgid "publication.status.unscheduled"
+msgstr "Tidak dijadwalkan"
+
+msgid "submission.publications"
+msgstr "Publikasi"
+
+msgid "publication.copyrightYearBasis.issueDescription"
+msgstr ""
+"Tahun hak cipta akan ditetapkan secara otomatis jika naskah ini diterbitkan "
+"pada satu nomor terbitan."
+
+msgid "publication.copyrightYearBasis.submissionDescription"
+msgstr ""
+"Tahun hak cipta akan ditetapkan secara otomatis berdasarkan tanggal "
+"publikasi."
+
+msgid "publication.datePublished"
+msgstr "Tanggal Diterbitkan"
+
+msgid "publication.editDisabled"
+msgstr "Versi ini telah diterbitkan dan tidak dapat disunting."
+
+msgid "publication.event.published"
+msgstr "Naskah telah diterbitkan."
+
+msgid "publication.event.scheduled"
+msgstr "Naskah telah dijadwalkan untuk terbit."
+
+msgid "publication.event.unpublished"
+msgstr "Naskah tidak diterbitkan."
+
+msgid "publication.event.versionPublished"
+msgstr "Versi baru telah diterbitkan."
+
+msgid "publication.event.versionScheduled"
+msgstr "Versi baru telah dijadwalkan untuk terbit."
+
+msgid "publication.event.versionUnpublished"
+msgstr "Sebuah versi dihapus dari publikasi."
+
+msgid "publication.invalidSubmission"
+msgstr "Naskah publikasi ini tidak dapat ditemukan."
+
+msgid "publication.publish"
+msgstr "Terbitkan"
+
+msgid "publication.publish.requirements"
+msgstr "Persyaratan berikut harus dipenuhi sebelum naskah diterbitkan."
+
+msgid "publication.required.declined"
+msgstr "Naskah yang ditolak tidak bisa diterbitkan."
+
+msgid "publication.required.reviewStage"
+msgstr ""
+"Naskah harus melewati tahap Penyuntingan Naskah atau Produksi sebelum dapat "
+"diterbitkan."
+
+msgid "submission.license.description"
+msgstr ""
+"Lisensi akan ditetapkan otomatis pada <a href='{$licenseUrl}' "
+"target='_blank'>{$licenseName}</a> ketika naskah ini diterbitkan."
+
+msgid "submission.copyrightHolder.description"
+msgstr ""
+"Hak cipta akan ditentukan secara otomatis pada {$copyright} ketika naskah "
+"ini diterbitkan."
+
+msgid "submission.copyrightOther.description"
+msgstr "Gunakan hak cipta untuk naskah terbitan pada pihak berikut."
+
+msgid "publication.unpublish"
+msgstr "Tidak diterbitkan"
+
+msgid "publication.unpublish.confirm"
+msgstr "Yakin tidak ingin menerbitkan naskah ini?"
+
+msgid "publication.unschedule.confirm"
+msgstr "Yakin tidak ingin menjadwalkan naskah ini untuk diterbitkan?"
+
+msgid "publication.version.details"
+msgstr "Perincian publikasi naskah versi {$version}"
+
+msgid "submission.queries.production"
+msgstr "Diskusi Produksi"
+
+msgid "publication.chapter.landingPage"
+msgstr "Halaman Bab"
+
+msgid "publication.chapter.hasLandingPage"
+msgstr ""
+"Tampilkan bab ini pada halaman tersendiri dan tautkan ke halaman tersebut "
+"dari daftar isi buku."
+
+msgid "publication.publish.success"
+msgstr "Status publikasi berhasil diubah."
+
+msgid "chapter.volume"
+msgstr "Volume"
+
+msgid "submission.withoutChapter"
+msgstr "{$name} — Tanpa bab ini"
+
+msgid "submission.chapterCreated"
+msgstr " — Bab dibuat"
+
+msgid "chapter.pages"
+msgstr "Halaman"
+
+msgid "editor.submission.decision.sendInternalReview"
+msgstr "Kirim ke Peninjau Internal"
+
+msgid "editor.submission.decision.sendInternalReview.description"
+msgstr "Submisi ini siap untuk dikirimkan ke peninjau internal."
+
+msgid "editor.submission.decision.sendInternalReview.log"
+msgstr "{$editorName} mengirimkan submisi ini ke tahap peninjauan internal."
+
+msgid "editor.submission.decision.sendInternalReview.completed"
+msgstr "Dikirim untuk Peninjauan Internal"
+
+msgid "editor.submission.decision.sendInternalReview.completed.description"
+msgstr ""
+"Submisi, {$title}, telah dikirim ke tahap peninjauan internal. Penulis telah "
+"diberi tahu, kecuali Anda memilih untuk melewatkan email tersebut."
+
+msgid "editor.submission.decision.sendInternalReview.notifyAuthorsDescription"
+msgstr ""
+"Kirim email kepada penulis untuk memberi tahu mereka bahwa kiriman ini akan "
+"dikirim untuk peninjauan internal. Jika memungkinkan, berikan petunjuk "
+"kepada penulis tentang berapa lama proses peninjauan internal akan "
+"berlangsung dan kapan mereka akan mendapat kabar dari editor lagi."
+
+msgid "editor.submission.decision.promoteFiles.internalReview"
+msgstr "Pilih berkas yang harus dikirim ke tahap peninjauan internal."
+
+msgid "editor.submission.decision.sendExternalReview.log"
+msgstr "{$editorName} mengirimkan submisi ini ke tahap peninjauan eksternal."
+
+msgid "editor.submission.decision.sendExternalReview.completed"
+msgstr "Dikirim untuk Peninjauan Eksternal"
+
+msgid "editor.submission.decision.sendExternalReview.completed.description"
+msgstr "Submisi, {$title}, telah dikirim ke tahap peninjauan eksternal."
+
+msgid "editor.submission.decision.backToReview"
+msgstr "Kembali ke Peninjauan"
+
+msgid "editor.submission.decision.backToReview.description"
+msgstr ""
+"Kembalikan keputusan untuk menerima submisi ini dan kirimkan kembali ke "
+"tahap peninjauan."
+
+msgid "editor.submission.decision.backToReview.log"
+msgstr ""
+"{$editorName} membatalkan keputusan untuk menerima kiriman ini dan "
+"mengirimkannya kembali ke tahap peninjauan."
+
+msgid "editor.submission.decision.backToReview.completed"
+msgstr "Dikirim Kembali untuk Ditinjau"
+
+msgid "editor.submission.decision.backToReview.completed.description"
+msgstr "Submisi, {$title}, dikirim kembali ke tahap peninjauan."
+
+msgid "editor.submission.decision.backToReview.notifyAuthorsDescription"
+msgstr ""
+"Kirim email kepada penulis untuk memberi tahu mereka bahwa kiriman mereka "
+"akan dikembalikan ke tahap peninjauan. Jelaskan mengapa keputusan ini dibuat "
+"dan beri tahu penulis tentang peninjauan lebih lanjut yang akan dilakukan."
+
+msgid "editor.submission.decision.sendExternalReview.notifyAuthorsDescription"
+msgstr ""
+"Kirim email kepada penulis untuk memberi tahu mereka bahwa kiriman ini akan "
+"dikirim untuk peninjauan sejawat. Jika memungkinkan, berikan petunjuk kepada "
+"penulis tentang berapa lama proses peninjauan sejawat akan berlangsung dan "
+"kapan mereka akan mendapat kabar dari penyunting lagi."
+
+msgid "editor.submission.decision.promoteFiles.externalReview"
+msgstr "Pilih file yang harus dikirim ke tahap peninjauan."
+
+msgid "editor.submission.recommend.sendExternalReview"
+msgstr "Rekomendasikan Kirim ke Peninjauan Eksternal"
+
+msgid "editor.submission.recommend.sendExternalReview.description"
+msgstr "Rekomendasikan agar kiriman ini dikirim ke tahap peninjauan eksternal."
+
+msgid "editor.submission.recommend.sendExternalReview.log"
+msgstr ""
+"{$editorName} merekomendasikan agar kiriman ini dikirim ke tahap peninjauan "
+"eksternal."
+
+msgid "doi.submission.incorrectContext"
+msgstr ""
+"Tidak dapat membuat DOI untuk submisi berikut: {$pubObjectTitle}. Submisi "
+"tersebut tidak ada dalam konteks penerbit saat ini."
+
+msgid "publication.chapter.licenseUrl"
+msgstr "URL Lisensi"
+
+msgid "publication.chapterDefaultLicenseURL"
+msgstr "URL Lisensi Bab Default"
+
+msgid "submission.copyright.description"
+msgstr ""
+"Harap baca dan pahami ketentuan hak cipta untuk kiriman ke penerbit ini."
+
+msgid "submission.wizard.notAllowed.description"
+msgstr ""
+"Anda tidak diperbolehkan melakukan submisi ke penerbit ini karena penulis "
+"harus didaftarkan oleh staf redaksi. Jika Anda yakin ini adalah kesalahan, "
+"silakan hubungi <a href='mailto:{$email}'>{$name}</a>."
+
+msgid "submission.wizard.sectionClosed.message"
+msgstr ""
+"{$contextName} tidak menerima submisi untuk seri {$section}. Jika Anda "
+"memerlukan bantuan untuk memulihkan kiriman Anda, silakan hubungi <a "
+"href='mailto:{$email}'>{$name}</a>."
+
+msgid "submission.sectionNotFound"
+msgstr "Seri untuk submisi ini tidak dapat ditemukan."
+
+msgid "submission.sectionRestrictedToEditors"
+msgstr "Hanya staf redaksi yang dibolehkan mengirimkan tulisan ke seri ini."
+
+msgid "submission.wizard.submitting.monograph"
+msgstr "Mengirimkan <strong>Monograf</strong>."
+
+msgid "submission.wizard.submitting.monographInLanguage"
+msgstr ""
+"Mengirimkan <strong>Monograf</strong> dalam <strong>{$language}</strong>."
+
+msgid "submission.wizard.submitting.editedVolume"
+msgstr "Mengirimkan <strong>Bunga Rampai (Edited Volume)</strong>."
+
+msgid "submission.wizard.submitting.editedVolumeInLanguage"
+msgstr ""
+"Mengirimkan <strong>Bunga Rampai (Edited Volume)</strong> dalam "
+"<strong>{$language}</strong>."
+
+msgid "submission.wizard.chapters.description"
+msgstr ""
+"Harap cantumkan semua bab dari kiriman ini. Jika Anda mengirimkan bunga "
+"rampai (edited volume), pastikan setiap bab mencantumkan kontributor untuk "
+"bab tersebut."
+
+msgid "publication.chapter.landingPage.doi.description"
+msgstr ""
+"(Bab ini akan selalu ditampilkan di halamannya sendiri karena memiliki DOI.)"
+
+msgid "submission.dashboard.view.reviewInternal"
+msgstr "Semua dalam peninjauan internal"
+
+msgid "submission.stage.externalReviewWithRound"
+msgstr "Peninjauan Eksternal (Putaran {$round})"
+
+msgid "submission.stage.internalReviewWithRound"
+msgstr "Peninjauan Internal (Putaran {$round})"

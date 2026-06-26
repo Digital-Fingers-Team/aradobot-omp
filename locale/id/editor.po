@@ -1,0 +1,208 @@
+# Muhammad Ihlasul Amal <ihlasulamal26@gmail.com>, 2025.
+# Maria Lamury <marialamury@gmail.com>, 2025.
+# Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-03 05:59+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/omp/editor/"
+"id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "editor.monograph.legend.itemActionsDescription"
+msgstr "Tindakan dan opsi khusus untuk file individual."
+
+msgid "editor.monograph.cancelReview"
+msgstr "Batalkan Permintaan"
+
+msgid "editor.monograph.clearReview"
+msgstr "Hapus Peninjau"
+
+msgid "editor.monograph.enterRecommendation"
+msgstr "Masukkan Rekomendasi"
+
+msgid "editor.monograph.recommendation"
+msgstr "Rekomendasi"
+
+msgid "editor.monograph.selectReviewerInstructions"
+msgstr ""
+"Pilih peninjau di atas dan tekan tombol 'Pilih Peninjau' untuk melanjutkan."
+
+msgid "editor.monograph.replaceReviewer"
+msgstr "Ganti Peninjau"
+
+msgid "editor.monograph.editorToEnter"
+msgstr "Editor untuk memasukkan rekomendasi/komentar untuk peninjau"
+
+msgid "editor.monograph.uploadReviewForReviewer"
+msgstr "Unggah tinjauan"
+
+msgid "editor.monograph.peerReviewOptions"
+msgstr "Opsi Tinjauan Sejawat"
+
+msgid "editor.monograph.internalReview"
+msgstr "Memulai Tinjauan Internal"
+
+msgid "editor.monograph.internalReviewDescription"
+msgstr "Pilih file di bawah untuk mengirimnya ke tahap peninjauan internal."
+
+msgid "editor.monograph.final.currentFiles"
+msgstr "File Draf Akhir Saat Ini"
+
+msgid "editor.monograph.copyediting.currentFiles"
+msgstr "File Saat Ini"
+
+msgid "editor.monograph.copyediting.personalMessageToUser"
+msgstr "Pesan untuk pengguna"
+
+msgid "editor.monograph.legend.submissionActions"
+msgstr "Tindakan Submisi"
+
+msgid "editor.monograph.legend.sectionActions"
+msgstr "Tindakan Bagian"
+
+msgid "editor.monograph.legend.sectionActionsDescription"
+msgstr ""
+"Pilihan khusus untuk bagian tertentu, misalnya mengunggah file atau "
+"menambahkan pengguna."
+
+msgid "editor.monograph.legend.itemActions"
+msgstr "Tindakan Item"
+
+msgid "editor.submissionArchive"
+msgstr "Arsip Submisi"
+
+msgid "editor.monograph.enterReviewerRecommendation"
+msgstr "Masukkan Rekomendasi Peninjau"
+
+msgid "editor.monograph.selectProofreadingFiles"
+msgstr "File Proofreading"
+
+msgid "editor.monograph.externalReview"
+msgstr "Memulai Tinjauan Eksternal"
+
+msgid "editor.monograph.final.selectFinalDraftFiles"
+msgstr "Pilih File Draf Akhir"
+
+msgid "editor.monograph.legend.submissionActionsDescription"
+msgstr "Tindakan dan pilihan penyerahan secara keseluruhan."
+
+msgid "editor.monograph.legend.catalogEntry"
+msgstr ""
+"Melihat dan mengelola entri katalog pengiriman, termasuk metadata dan format "
+"terbitan"
+
+msgid "editor.monograph.legend.participants"
+msgstr ""
+"Lihat dan kelola peserta pengiriman naskah: penulis, editor, desainer, dan "
+"lain-lain"
+
+msgid "editor.monograph.legend.add"
+msgstr "Unggah file ke bagian ini"
+
+msgid "editor.monograph.legend.add_user"
+msgstr "Tambahkan pengguna ke bagian ini"
+
+msgid "editor.monograph.legend.more_info"
+msgstr "Informasi lebih lanjut, catatan file, pilihan notifikasi, dan sejarah"
+
+msgid "editor.monograph.legend.notes"
+msgstr ""
+"Informasi file: catatan, pilihan notifikasi, dan sejarah (Catatan tersedia)"
+
+msgid "editor.monograph.legend.notes_new"
+msgstr ""
+"Informasi file: catatan, pilihan notifikasi, dan sejarah (Catatan baru "
+"ditambahkan sejak kunjungan terakhir)"
+
+msgid "editor.monograph.legend.edit"
+msgstr "Mengedit item"
+
+msgid "editor.monograph.legend.delete"
+msgstr "Menghapus item"
+
+msgid "editor.monograph.legend.bookInfo"
+msgstr ""
+"Lihat dan kelola metadata pengiriman naskah, catatan, notifikasi, dan sejarah"
+
+msgid "editor.monograph.legend.notes_none"
+msgstr ""
+"Informasi file: catatan, pilihan notifikasi, dan sejarah (Belum ada catatan "
+"yang ditambahkan)"
+
+msgid "editor.monograph.legend.settings"
+msgstr ""
+"Lihat dan akses pengaturan item, seperti informasi dan pilihan untuk "
+"menghapus"
+
+msgid "editor.monograph.legend.in_progress"
+msgstr "Sedang dikerjakan atau belum selesai"
+
+msgid "editor.monograph.legend.complete"
+msgstr "Kegiatan sudah selesai"
+
+msgid "editor.submission.introduction"
+msgstr ""
+"Pada Pengiriman Naskah, editor, sesudah mengkonsultasikan naskah yang "
+"dikirim, memilih langkah yang tepat (termasuk memberitahu penulis): "
+"Mengirimkan ke Review Internal (memerlukan memilih file untuk Review "
+"Internal); Mengirimkan ke Review Eksternal (memerlukan memilih file untuk "
+"Review Eksternal); Menerima Naskah (memerlukan memilih file untuk tahap "
+"Editorial); atau Menolak Naskah (menyimpan naskah)."
+
+msgid "editor.monograph.production.approvalAndPublishing"
+msgstr "Persetujuan dan Penerbitan"
+
+msgid "editor.monograph.production.approvalAndPublishingDescription"
+msgstr ""
+"Format publikasi lain, seperti hardcover, softcover dan digital, dapat "
+"diunggah pada Format Publikasi di bawah ini. Anda dapat menggunakan kisi "
+"format publikasi berikut sebagai checklist untuk apa yang perlu dikerjakan "
+"untuk menerbitkan format publikasi."
+
+msgid "editor.monograph.production.publicationFormatDescription"
+msgstr ""
+"Tambahkan format penerbitan (mis., digital, cetak) dimana layout editor "
+"menyiapkan halaman untuk proofreading. <em>Halaman Proof</em>harus diperiksa "
+"untuk disetujui dan entri <em>Katalog</em> untuk formatnya perlu dicek "
+"seperti yang tertera di entri katalog buku, sebelum format dibuat "
+"<em>Tersedia</em> (yaitu, terbit)."
+
+msgid "editor.monograph.approvedProofs.edit"
+msgstr "Tetapkan Ketentuan untuk Mengunduh"
+
+msgid "editor.monograph.approvedProofs.edit.linkTitle"
+msgstr "Tetapkan Ketentuan"
+
+msgid "editor.monograph.proof.addNote"
+msgstr "Tambahkan respon"
+
+msgid "editor.submission.proof.manageProofFilesDescription"
+msgstr ""
+"File yang telah diunggah pada tahap pengiriman naskah dapat ditambahkan ke "
+"File Proof yang terdaftar dengan mencentang checkbox di bawah ini dan "
+"mengklik Search: semua file yang tersedia akan dimasukkan dalam daftar dan "
+"dapat dipilih untuk disertakan."
+
+msgid "editor.monograph.legend.uploaded"
+msgstr "Berkas diunggah berdasarkan peran di judul kolom grid"
+
+msgid "editor.monograph.editorial.fairCopy"
+msgstr "Salinan yang Adil"
+
+msgid "editor.monograph.proofs"
+msgstr "Bukti"
+
+msgid "editor.publicIdentificationExistsForTheSameType"
+msgstr ""
+"Pengidentifikasi publik '{$publicIdentifier}' sudah ada untuk objek lain "
+"dengan tipe yang sama. Harap pilih pengidentifikasi unik untuk objek dengan "
+"tipe yang sama dalam pers Anda."
+
+msgid "editor.submissions.assignedTo"
+msgstr "Ditugaskan ke Penyunting"

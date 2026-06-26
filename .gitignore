@@ -1,0 +1,17 @@
+# --- Secrets: never commit the live config (DB password + app_key) ---
+config.inc.php
+
+# --- Uploaded files (runtime data) ---
+/files/
+
+# --- Caches (entirely runtime-generated; recreated by the container) ---
+/cache/
+
+# --- Public uploaded content (keep dir structure, drop uploads) ---
+/public/site/
+/public/presses/
+
+# --- Logs / OS cruft ---
+*.log
+.DS_Store
+Thumbs.db

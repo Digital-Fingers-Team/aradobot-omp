@@ -1,0 +1,60 @@
+name: Tests
+on:
+  push:
+    branches:
+      - '[0-9]+.x'
+      - '[0-9]+.[0-9]+'
+      - '[0-9]+.[0-9]+.x'
+  pull_request:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 10
+      matrix:
+        php: [ '7.3', '7.4', '8.0', '8.1', '8.2', '8.3', '8.4']
+
+    steps:
+      - name: Set up PHP
+        uses: shivammathur/setup-php@2.30.0
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+          tools: flex
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download dependencies
+        run: composer update --no-interaction --prefer-dist --optimize-autoloader --prefer-stable
+
+      - name: Start test server
+        run: ./vendor/bin/http_test_server > /dev/null 2>&1 &
+
+      - name: Run tests
+        run: composer test
+
+  lowest:
+    name: Lowest deps
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up PHP
+        uses: shivammathur/setup-php@2.30.0
+        with:
+          php-version: 7.3
+          coverage: none
+          tools: flex
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download dependencies
+        run: composer update --no-interaction --prefer-dist --optimize-autoloader --prefer-stable --prefer-lowest
+
+      - name: Start test server
+        run: ./vendor/bin/http_test_server > /dev/null 2>&1 &
+
+      - name: Run tests
+        run: ./vendor/bin/phpunit

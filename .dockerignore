@@ -1,0 +1,8 @@
+# Keep the image clean: exclude VCS, build leftovers, and runtime data.
+.git
+.github
+cypress*
+*.log
+# Runtime cache (recreated in the Dockerfile) and uploaded files
+cache/
+files/

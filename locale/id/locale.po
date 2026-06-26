@@ -1,0 +1,1690 @@
+# elpinowindy <elpinowindy@proton.me>, 2023.
+# Muhammad Ihlasul Amal <ihlasulamal26@gmail.com>, 2024.
+# Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>, 2025.
+# Muhammad Fauzi <fauzi.padlaw@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-26 12:17+0000\n"
+"Last-Translator: Muhammad Fauzi <fauzi.padlaw@gmail.com>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/omp/locale/"
+"id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "common.payments"
+msgstr "Pembayaran"
+
+msgid "monograph.audience"
+msgstr "Pembaca"
+
+msgid "monograph.audience.success"
+msgstr "Rincian pembaca telah diperbarui."
+
+msgid "monograph.coverImage"
+msgstr "Gambar Sampul"
+
+msgid "monograph.audience.rangeQualifier"
+msgstr "Kualifikasi Jangkauan Pembaca"
+
+msgid "monograph.audience.rangeFrom"
+msgstr "Jangkauan Pembaca (dari)"
+
+msgid "monograph.audience.rangeTo"
+msgstr "Jangkauan Pembaca (hingga)"
+
+msgid "monograph.audience.rangeExact"
+msgstr "Jangkauan Pembaca (tepat)"
+
+msgid "monograph.languages"
+msgstr "Bahasa (Inggris, Prancis, Spanyol)"
+
+msgid "monograph.publicationFormats"
+msgstr "Format Publikasi"
+
+msgid "monograph.publicationFormat"
+msgstr "Format"
+
+msgid "monograph.publicationFormatDetails"
+msgstr "Detail format terbitan yang tersedia: {$format}"
+
+msgid "monograph.miscellaneousDetails"
+msgstr "Detail monograf ini"
+
+msgid "monograph.carousel.publicationFormats"
+msgstr "Format:"
+
+msgid "monograph.type"
+msgstr "Jenis Submisi"
+
+msgid "submission.pageProofs"
+msgstr "Halaman Proof"
+
+msgid "monograph.proofReadingDescription"
+msgstr ""
+"Penyunting tata letak mengunggah berkas siap produksi yang telah disiapkan "
+"untuk penerbitan di sini. Gunakan <em>+Tetapkan</em> untuk menunjuk penulis "
+"dan orang lain untuk melakukan proofread pada halaman proof, dengan berkas "
+"yang telah diperbaiki diunggah untuk disetujui sebelum diterbitkan."
+
+msgid "monograph.task.addNote"
+msgstr "Tambah tugas"
+
+msgid "monograph.accessLogoOpen.altText"
+msgstr "Akses Terbuka"
+
+msgid "monograph.publicationFormat.imprint"
+msgstr "Lini Penerbit (Nama Merek)"
+
+msgid "monograph.publicationFormat.pageCounts"
+msgstr "Penghitung Halaman"
+
+msgid "monograph.publicationFormat.frontMatterCount"
+msgstr "Halaman Depan"
+
+msgid "monograph.publicationFormat.backMatterCount"
+msgstr "Halaman Belakang"
+
+msgid "monograph.publicationFormat.productComposition"
+msgstr "Komposisi Produk"
+
+msgid "monograph.publicationFormat.productFormDetailCode"
+msgstr "Detail Produk (tidak dibutuhkan)"
+
+msgid "monograph.publicationFormat.productIdentifierType"
+msgstr "Identifikasi Produk"
+
+msgid "monograph.publicationFormat.price"
+msgstr "Harga"
+
+msgid "monograph.publicationFormat.priceRequired"
+msgstr "Harga dibutuhkan."
+
+msgid "monograph.publicationFormat.priceType"
+msgstr "Jenis Harga"
+
+msgid "monograph.publicationFormat.discountAmount"
+msgstr "Persentase diskon, jika berlaku"
+
+msgid "monograph.publicationFormat.productAvailability"
+msgstr "Ketersediaan Produk"
+
+msgid "monograph.publicationFormat.returnInformation"
+msgstr "Indikator Pengembalian"
+
+msgid "monograph.publicationFormat.digitalInformation"
+msgstr "Informasi Digital"
+
+msgid "monograph.publicationFormat.productDimensions"
+msgstr "Dimensi Fisik"
+
+msgid "monograph.publicationFormat.productDimensionsSeparator"
+msgstr " x "
+
+msgid "monograph.publicationFormat.productFileSize"
+msgstr "Ukuran File dalam Mbytes"
+
+msgid "monograph.publicationFormat.productFileSize.override"
+msgstr "Masukkan nilai ukuran file Anda sendiri?"
+
+msgid "monograph.publicationFormat.productHeight"
+msgstr "Tinggi"
+
+msgid "monograph.publicationFormat.productThickness"
+msgstr "Ketebalan"
+
+msgid "monograph.publicationFormat.productWeight"
+msgstr "Berat"
+
+msgid "monograph.publicationFormat.productWidth"
+msgstr "Lebar"
+
+msgid "monograph.publicationFormat.countryOfManufacture"
+msgstr "Negara Pembuat"
+
+msgid "monograph.publicationFormat.technicalProtection"
+msgstr "Perlindungan Teknis Digital"
+
+msgid "monograph.publicationFormat.productRegion"
+msgstr "Wilayah Distribusi Produk"
+
+msgid "monograph.publicationFormat.taxRate"
+msgstr "Tarif Perpajakan"
+
+msgid "monograph.publicationFormat.taxType"
+msgstr "Jenis Perpajakan"
+
+msgid "monograph.publicationFormat.isApproved"
+msgstr ""
+"Sertakan metadata untuk format terbitan ini dalam entri katalog untuk buku "
+"ini."
+
+msgid "monograph.publicationFormat.noMarketsAssigned"
+msgstr "Pasar dan harga tidak ditemukan."
+
+msgid "monograph.publicationFormat.noCodesAssigned"
+msgstr "Kode identifikasi tidak ditemukan."
+
+msgid "monograph.publicationFormat.missingONIXFields"
+msgstr "Beberapa bidang metadata tidak ditemuka."
+
+msgid "monograph.publicationFormat.formatDoesNotExist"
+msgstr ""
+"<p>Format terbitan yang Anda pilih tidak lagi tersedia untuk monograf "
+"ini.</p>"
+
+msgid "monograph.publicationFormat.openTab"
+msgstr "Buka tab format terbitan."
+
+msgid "grid.catalogEntry.publicationFormatType"
+msgstr "Format Terbitan"
+
+msgid "grid.catalogEntry.nameRequired"
+msgstr "Nama dibutuhkan."
+
+msgid "grid.catalogEntry.validPriceRequired"
+msgstr "Harga valid dibutuhkan."
+
+msgid "grid.catalogEntry.publicationFormatDetails"
+msgstr "Detail Format"
+
+msgid "grid.catalogEntry.physicalFormat"
+msgstr "Format fisik"
+
+msgid "grid.catalogEntry.remotelyHostedContent"
+msgstr "Format ini akan tersedia di situs web terpisah"
+
+msgid "grid.catalogEntry.remoteURL"
+msgstr "URL konten yang dihosting dari jarak jauh"
+
+msgid "grid.catalogEntry.isbn"
+msgstr "ISBN"
+
+msgid "grid.catalogEntry.isbn13.description"
+msgstr "Kode ISBN 13 digit, seperti 978-951-98548-9-2."
+
+msgid "grid.catalogEntry.isbn10.description"
+msgstr "Kode ISBN 10 digit, seperti 951-98548-9-4."
+
+msgid "grid.catalogEntry.monographRequired"
+msgstr "Id monograf dibutuhkan."
+
+msgid "grid.catalogEntry.publicationFormatRequired"
+msgstr "Format publikasi harus dipilih."
+
+msgid "grid.catalogEntry.availability"
+msgstr "Ketersediaan"
+
+msgid "grid.catalogEntry.isAvailable"
+msgstr "Tersedia"
+
+msgid "grid.catalogEntry.isNotAvailable"
+msgstr "Tidak Tersedia"
+
+msgid "grid.catalogEntry.proof"
+msgstr "Bukti"
+
+msgid "grid.catalogEntry.approvedRepresentation.title"
+msgstr "Persetujuan Format"
+
+msgid "grid.catalogEntry.approvedRepresentation.message"
+msgstr ""
+"<p>Setujui metadata untuk format ini. Metadata dapat diperiksa dari panel "
+"Ubah untuk setiap format.</p>"
+
+msgid "grid.catalogEntry.approvedRepresentation.removeMessage"
+msgstr "<p>Menunjukkan metadata untuk format ini belum disetujui.</p>"
+
+msgid "grid.catalogEntry.availableRepresentation.title"
+msgstr "Ketersediaan Format"
+
+msgid "grid.catalogEntry.availableRepresentation.message"
+msgstr ""
+"<p>Buat format ini <em>tersedia untuk pembaca</em>. File yang dapat diunduh "
+"dan distribusi lainnya akan muncul di entri katalog buku.</p>"
+
+msgid "grid.catalogEntry.availableRepresentation.removeMessage"
+msgstr ""
+"<p>Format ini <em>tidak akan tersedia bagi pembaca</em>. Semua berkas yang "
+"dapat diunduh atau distribusi lainnya tidak akan muncul lagi dalam entri "
+"katalog buku.</p>"
+
+msgid "grid.catalogEntry.availableRepresentation.catalogNotApprovedWarning"
+msgstr "Entri katalog tidak disetujui."
+
+msgid "grid.catalogEntry.availableRepresentation.notApprovedWarning"
+msgstr "Format tidak ada dalam entri katalog."
+
+msgid "grid.catalogEntry.availableRepresentation.proofNotApproved"
+msgstr "Proof tidak disetujui."
+
+msgid "grid.catalogEntry.availableRepresentation.approved"
+msgstr "Disetujui"
+
+msgid "grid.catalogEntry.availableRepresentation.notApproved"
+msgstr "Menunggu Persetujuan"
+
+msgid "grid.catalogEntry.fileSizeRequired"
+msgstr "Ukuran berkas untuk format digital diperlukan."
+
+msgid "grid.catalogEntry.productAvailabilityRequired"
+msgstr "Kode ketersediaan produk dibutuhkan."
+
+msgid "grid.catalogEntry.productCompositionRequired"
+msgstr "Kode komposisi produk harus dipilih."
+
+msgid "grid.catalogEntry.identificationCodeValue"
+msgstr "Nilai Kode"
+
+msgid "grid.catalogEntry.identificationCodeType"
+msgstr "Jenis Kode ONIX"
+
+msgid "grid.catalogEntry.codeRequired"
+msgstr "Kode identifikasi dibutuhkan."
+
+msgid "grid.catalogEntry.valueRequired"
+msgstr "Nilai dibutuhkan."
+
+msgid "grid.catalogEntry.salesRights"
+msgstr "Hak Penjualan"
+
+msgid "grid.catalogEntry.salesRightsValue"
+msgstr "Nilai Kode"
+
+msgid "grid.catalogEntry.salesRightsType"
+msgstr "Jenis Hak Penjualan"
+
+msgid "grid.catalogEntry.salesRightsROW"
+msgstr "Seluruh Dunia?"
+
+msgid "grid.catalogEntry.salesRightsROW.tip"
+msgstr ""
+"Centang kotak ini untuk menggunakan entri Hak Penjualan ini sebagai "
+"penampung untuk format Anda.  Negara dan wilayah tidak perlu dipilih dalam "
+"kasus ini."
+
+msgid "grid.catalogEntry.oneROWPerFormat"
+msgstr ""
+"Sudah ada jenis penjualan ROW yang ditetapkan untuk format publikasi ini."
+
+msgid "grid.catalogEntry.countries"
+msgstr "Negara"
+
+msgid "grid.catalogEntry.regions"
+msgstr "Wilayah"
+
+msgid "grid.catalogEntry.included"
+msgstr "Termasuk"
+
+msgid "grid.catalogEntry.excluded"
+msgstr "Dikecualikan"
+
+msgid "grid.catalogEntry.markets"
+msgstr "Kawasan Pasar"
+
+msgid "grid.catalogEntry.marketTerritory"
+msgstr "Kawasan"
+
+msgid "grid.catalogEntry.publicationDates"
+msgstr "Tanggal Terbit"
+
+msgid "grid.catalogEntry.roleRequired"
+msgstr "Peran perwakilan dibutuhkan."
+
+msgid "grid.catalogEntry.dateFormatRequired"
+msgstr "Format tanggal dibutuhkan."
+
+msgid "grid.catalogEntry.dateValue"
+msgstr "Tanggal"
+
+msgid "grid.catalogEntry.dateRole"
+msgstr "Peran"
+
+msgid "grid.catalogEntry.dateFormat"
+msgstr "Format Tanggal"
+
+msgid "grid.catalogEntry.dateRequired"
+msgstr ""
+"Tanggal diperlukan dan nilai tanggal harus sesuai dengan format tanggal yang "
+"dipilih."
+
+msgid "grid.catalogEntry.representatives"
+msgstr "Perwakilan"
+
+msgid "grid.catalogEntry.representativeType"
+msgstr "Jenis Perwakilan"
+
+msgid "grid.catalogEntry.agentsCategory"
+msgstr "Agen"
+
+msgid "grid.catalogEntry.suppliersCategory"
+msgstr "Pemasok"
+
+msgid "grid.catalogEntry.agent"
+msgstr "Agen"
+
+msgid "grid.catalogEntry.agentTip"
+msgstr ""
+"Anda dapat menugaskan agen untuk mewakili Anda di wilayah yang ditentukan "
+"ini. Hal ini tidak diwajibkan."
+
+msgid "grid.catalogEntry.supplier"
+msgstr "Pemasok"
+
+msgid "grid.catalogEntry.representativeRoleChoice"
+msgstr "Pilih peran:"
+
+msgid "grid.catalogEntry.representativeRole"
+msgstr "Peran"
+
+msgid "grid.catalogEntry.representativeName"
+msgstr "Nama"
+
+msgid "grid.catalogEntry.representativePhone"
+msgstr "Telepon"
+
+msgid "grid.catalogEntry.representativeEmail"
+msgstr "Alamat Email"
+
+msgid "grid.catalogEntry.representativeWebsite"
+msgstr "Situs Web"
+
+msgid "grid.catalogEntry.representativeIdValue"
+msgstr "ID Perwakilan"
+
+msgid "grid.catalogEntry.representativeIdType"
+msgstr "Jenis ID Perwakilan (GLN direkomendasikan)"
+
+msgid "grid.catalogEntry.representativesDescription"
+msgstr ""
+"Anda dapat mengosongkan bagian berikut jika Anda menyediakan layanan Anda "
+"sendiri kepada pelanggan."
+
+msgid "grid.action.addRepresentative"
+msgstr "Tambah Perwakilan"
+
+msgid "grid.action.editRepresentative"
+msgstr "Ubah Perwakilan"
+
+msgid "grid.action.deleteRepresentative"
+msgstr "Hapus Perwakilan"
+
+msgid "spotlight"
+msgstr "Sorotan"
+
+msgid "spotlight.spotlights"
+msgstr "Sorotan"
+
+msgid "spotlight.noneExist"
+msgstr "Tidak ada sorotan saat ini."
+
+msgid "spotlight.title.homePage"
+msgstr "Dalam Sorotan"
+
+msgid "spotlight.author"
+msgstr "Penulis, "
+
+msgid "grid.content.spotlights.spotlightItemTitle"
+msgstr "Item Sorotan"
+
+msgid "grid.content.spotlights.category.homepage"
+msgstr "Beranda"
+
+msgid "grid.content.spotlights.form.location"
+msgstr "Lokasi Sorotan"
+
+msgid "grid.content.spotlights.form.item"
+msgstr "Masukkan judul yang disorot (pelengkapan otomatis)"
+
+msgid "grid.content.spotlights.form.title"
+msgstr "Judul sorotan"
+
+msgid "grid.content.spotlights.form.type.book"
+msgstr "Buku"
+
+msgid "grid.content.spotlights.itemRequired"
+msgstr "Item dibutuhkan."
+
+msgid "grid.content.spotlights.titleRequired"
+msgstr "Judul sorotan dibutuhkan."
+
+msgid "grid.content.spotlights.locationRequired"
+msgstr "Silakan pilih lokasi untuk sorotan ini."
+
+msgid "grid.action.editSpotlight"
+msgstr "Ubah sorotan"
+
+msgid "grid.action.deleteSpotlight"
+msgstr "Hapus sorotan"
+
+msgid "grid.action.addSpotlight"
+msgstr "Tambah Sorotan"
+
+msgid "manager.series.open"
+msgstr "Submisi Dibuka"
+
+msgid "manager.series.indexed"
+msgstr "Terindeks"
+
+msgid "grid.libraryFiles.column.files"
+msgstr "File"
+
+msgid "grid.action.catalogEntry"
+msgstr "Lihat formulir entri katalog"
+
+msgid "grid.action.formatInCatalogEntry"
+msgstr "Format muncul dalam entri katalog"
+
+msgid "grid.action.editFormat"
+msgstr "Ubah format ini"
+
+msgid "grid.action.deleteFormat"
+msgstr "Hapus format ini"
+
+msgid "grid.action.addFormat"
+msgstr "Tambah format terbitan"
+
+msgid "grid.action.approveProof"
+msgstr "Setujui proof untuk pengindeksan dan penyertaan dalam katalog"
+
+msgid "grid.action.pageProofApproved"
+msgstr "File halaman proof siap untuk diterbitkan"
+
+msgid "grid.action.newCatalogEntry"
+msgstr "Entri Katalog Baru"
+
+msgid "grid.action.publicCatalog"
+msgstr "Lihat item ini di katalog"
+
+msgid "grid.action.feature"
+msgstr "Alihkan tampilan fitur"
+
+msgid "grid.action.featureMonograph"
+msgstr "Unggulkan di carousel katalog"
+
+msgid "grid.action.releaseMonograph"
+msgstr "Tandai submisi sebagai 'Terbitan Baru'"
+
+msgid "grid.action.manageCategories"
+msgstr "Konfigurasi kategori untuk penerbit ini"
+
+msgid "grid.action.manageSeries"
+msgstr "Konfigurasi seri untuk penerbit ini"
+
+msgid "grid.action.addCode"
+msgstr "Tambah Kode"
+
+msgid "grid.action.editCode"
+msgstr "Ubah Kode"
+
+msgid "grid.action.deleteCode"
+msgstr "Hapus Kode"
+
+msgid "grid.action.addRights"
+msgstr "Tambah Hak Penjualan"
+
+msgid "grid.action.editRights"
+msgstr "Ubah Hak Penjualan"
+
+msgid "grid.action.deleteRights"
+msgstr "Hapus Hak Penjualan"
+
+msgid "grid.action.addMarket"
+msgstr "Tambah Pasar"
+
+msgid "grid.action.editMarket"
+msgstr "Ubah Pasar"
+
+msgid "grid.action.deleteMarket"
+msgstr "Hapus Pasar"
+
+msgid "grid.action.addDate"
+msgstr "Tambah tanggal terbit"
+
+msgid "grid.action.editDate"
+msgstr "Ubah Tanggal"
+
+msgid "grid.action.deleteDate"
+msgstr "Hapus Tanggal"
+
+msgid "grid.action.createContext"
+msgstr "Tambah penerbit baru"
+
+msgid "grid.action.publicationFormatTab"
+msgstr "Tampilkan tab format terbitan"
+
+msgid "grid.action.moreAnnouncements"
+msgstr "Kunjungi halaman pengumuman penerbit"
+
+msgid "grid.action.submissionEmail"
+msgstr "Klik untuk membaca email ini"
+
+msgid "grid.action.approveProofs"
+msgstr "Lihat kisi proof"
+
+msgid "grid.action.proofApproved"
+msgstr "Format telah di-proof"
+
+msgid "grid.action.availableRepresentation"
+msgstr "Setujui/tolak format ini"
+
+msgid "grid.action.formatAvailable"
+msgstr "Aktifkan dan nonaktifkan ketersediaan format ini"
+
+msgid "grid.reviewAttachments.add"
+msgstr "Tambahkan Lampiran untuk Ditinjau"
+
+msgid "grid.reviewAttachments.availableFiles"
+msgstr "File Tersedia"
+
+msgid "series.series"
+msgstr "Seri"
+
+msgid "series.featured.description"
+msgstr "Seri ini akan muncul di navigasi utama"
+
+msgid "series.path"
+msgstr "Jalur Berkas"
+
+msgid "catalog.manage"
+msgstr "Manajemen Katalog"
+
+msgid "catalog.manage.newReleases"
+msgstr "Terbitan Baru"
+
+msgid "catalog.manage.category"
+msgstr "Kategori"
+
+msgid "catalog.manage.series"
+msgstr "Seri"
+
+msgid "catalog.manage.series.issn"
+msgstr "ISSN"
+
+msgid "catalog.manage.series.issn.validation"
+msgstr "Harap masukkan ISSN yang valid."
+
+msgid "catalog.manage.series.issn.equalValidation"
+msgstr "ISSN daring dan cetak tidak boleh sama."
+
+msgid "catalog.manage.series.onlineIssn"
+msgstr "ISSN Daring"
+
+msgid "catalog.manage.series.printIssn"
+msgstr "ISSN Cetak"
+
+msgid "catalog.selectSeries"
+msgstr "Pilih Seri"
+
+msgid "catalog.selectCategory"
+msgstr "Pilih Kategori"
+
+msgid "catalog.manage.homepageDescription"
+msgstr ""
+"Gambar sampul buku yang dipilih tampil di bagian atas beranda sebagai "
+"kumpulan yang dapat digulir. Klik 'Unggulan', lalu bintang untuk menambahkan "
+"buku ke carousel; klik tanda seru untuk menampilkan sebagai terbitan baru; "
+"seret dan lepas untuk menyusun."
+
+msgid "catalog.manage.categoryDescription"
+msgstr ""
+"Klik 'Unggulan', lalu bintang untuk memilih buku unggulan untuk kategori ini;"
+" seret dan lepas untuk menyusun."
+
+msgid "catalog.manage.seriesDescription"
+msgstr ""
+"Klik 'Unggulan', lalu klik bintang untuk memilih buku unggulan untuk seri "
+"ini; seret dan lepas untuk menyusun. Seri diidentifikasi dengan editor dan "
+"judul seri, dalam suatu kategori atau secara terpisah."
+
+msgid "catalog.manage.placeIntoCarousel"
+msgstr "Karousel"
+
+msgid "catalog.manage.newRelease"
+msgstr "Terbitan"
+
+msgid "catalog.manage.manageSeries"
+msgstr "Kelola Seri"
+
+msgid "catalog.manage.manageCategories"
+msgstr "Kelola Kategori"
+
+msgid "catalog.manage.noMonographs"
+msgstr "Tidak ada monograf yang dipilih."
+
+msgid "catalog.manage.featured"
+msgstr "Unggulan"
+
+msgid "catalog.manage.categoryFeatured"
+msgstr "Unggulan di kategori"
+
+msgid "catalog.manage.seriesFeatured"
+msgstr "Unggulan di seri"
+
+msgid "catalog.manage.featuredSuccess"
+msgstr "Monograf diunggulkan."
+
+msgid "catalog.manage.notFeaturedSuccess"
+msgstr "Monograf tidak diunggulkan."
+
+msgid "catalog.manage.newReleaseSuccess"
+msgstr "Monograf ditandai sebagai terbitan baru."
+
+msgid "catalog.manage.notNewReleaseSuccess"
+msgstr "Monograf tidak ditandai sebagai terbitan baru."
+
+msgid "catalog.manage.feature.newRelease"
+msgstr "Terbitan Baru"
+
+msgid "catalog.manage.feature.categoryNewRelease"
+msgstr "Terbitan baru di kategori"
+
+msgid "catalog.manage.feature.seriesNewRelease"
+msgstr "Terbitan baru di seri"
+
+msgid "catalog.manage.nonOrderable"
+msgstr "Monograf tidak dapat disusun sebelum diunggulkan."
+
+msgid "catalog.manage.filter.searchByAuthorOrTitle"
+msgstr "Cari berdasarkan judul atau penulis"
+
+msgid "catalog.manage.isFeatured"
+msgstr "Monograf diunggulkan. Jadikan monograf tidak diunggulkan."
+
+msgid "catalog.manage.isNotFeatured"
+msgstr "Monograf tidak diunggulkan. Jadikan mmonograf tidak diunggulkan."
+
+msgid "catalog.manage.isNewRelease"
+msgstr "Monograf adalah terbitan baru. Jadikan monograf bukan terbitan baru."
+
+msgid "catalog.manage.isNotNewRelease"
+msgstr "Monograf bukan terbitan baru. Jadikan monograf terbitan baru."
+
+msgid "catalog.manage.noSubmissionsSelected"
+msgstr "Tidak ada submisi yang dipilih untuk ditambahkan ke katalog."
+
+msgid "catalog.manage.submissionsNotFound"
+msgstr "Satu atau beberapa submisi tidak dapat ditemukan."
+
+msgid "catalog.manage.findSubmissions"
+msgstr "Temukan monograf untuk ditambah ke katalog"
+
+msgid "catalog.noTitles"
+msgstr "Belum ada judul yang diterbitkan."
+
+msgid "catalog.noTitlesNew"
+msgstr "Tidak ada terbitan baru yang tersedia saat ini."
+
+msgid "catalog.noTitlesSearch"
+msgstr ""
+"Tidak ditemukan judul yang cocok dengan pencarian Anda untuk \"{$searchQuery}"
+"\"."
+
+msgid "catalog.feature"
+msgstr "Unggulan"
+
+msgid "catalog.featured"
+msgstr "Diunggulkan"
+
+msgid "catalog.featuredBooks"
+msgstr "Buku Unggulan"
+
+msgid "catalog.foundTitleSearch"
+msgstr ""
+"Satu judul ditemukan yang sesuai dengan pencarian Anda untuk \"{$searchQuery}"
+"\"."
+
+msgid "catalog.foundTitlesSearch"
+msgstr ""
+"{$number} judul ditemukan yang sesuai dengan pencarian anda untuk \""
+"{$searchQuery}\"."
+
+msgid "catalog.category.heading"
+msgstr "Semua Buku"
+
+msgid "catalog.newReleases"
+msgstr "Terbitan Baru"
+
+msgid "catalog.dateAdded"
+msgstr "Ditambahkan"
+
+msgid "catalog.publicationInfo"
+msgstr "Info Terbitan"
+
+msgid "catalog.published"
+msgstr "Diterbitkan"
+
+msgid "catalog.forthcoming"
+msgstr "Mendatang"
+
+msgid "catalog.categories"
+msgstr "Kategori"
+
+msgid "catalog.parentCategory"
+msgstr "Kategori Induk"
+
+msgid "catalog.category.subcategories"
+msgstr "Subkategori"
+
+msgid "catalog.aboutTheAuthor"
+msgstr "Tentang {$roleName}"
+
+msgid "catalog.loginRequiredForPayment"
+msgstr ""
+"Harap diperhatikan: Untuk membeli barang, Anda harus masuk terlebih dahulu. "
+"Memilih barang yang akan dibeli akan mengarahkan Anda ke halaman masuk. "
+"Barang apa pun yang ditandai dengan ikon Akses Terbuka dapat diunduh secara "
+"gratis, tanpa harus masuk."
+
+msgid "catalog.sortBy"
+msgstr "Susunan monograf"
+
+msgid "catalog.sortBy.seriesDescription"
+msgstr "Pilih cara menyusun buku pada seri ini."
+
+msgid "catalog.sortBy.categoryDescription"
+msgstr "Pilih cara menyusun buku pada kategori ini."
+
+msgid "catalog.sortBy.catalogDescription"
+msgstr "Pilih cara menyusun buku pada katalog."
+
+msgid "catalog.sortBy.seriesPositionAsc"
+msgstr "Posisi seri (terendah dulu)"
+
+msgid "catalog.sortBy.seriesPositionDesc"
+msgstr "Posisi seri (tertinggi dulu)"
+
+msgid "catalog.viewableFile.title"
+msgstr "Tampilan {$type} file {$title}"
+
+msgid "catalog.viewableFile.return"
+msgstr "Kembali untuk melihat detail tentang {$monographTitle}"
+
+msgid "submission.search"
+msgstr "Cari Buku"
+
+msgid "common.publication"
+msgstr "Monograf"
+
+msgid "common.publications"
+msgstr "Monograf"
+
+msgid "common.prefix"
+msgstr "Prefiks"
+
+msgid "common.preview"
+msgstr "Pratinjau"
+
+msgid "common.feature"
+msgstr "Unggulan"
+
+msgid "common.searchCatalog"
+msgstr "Cari Katalog"
+
+msgid "common.moreInfo"
+msgstr "Informasi Lebih Lanjut"
+
+msgid "common.listbuilder.completeForm"
+msgstr "Silakan isi formulir dengan lengkap."
+
+msgid "common.listbuilder.selectValidOption"
+msgstr "Silakan pilih opsi yang valid dari daftar."
+
+msgid "common.listbuilder.itemExists"
+msgstr "Anda tidak dapat menambahkan item yang sama dua kali."
+
+msgid "common.software"
+msgstr "Open Monograph Press"
+
+msgid "common.omp"
+msgstr "OMP"
+
+msgid "common.homePageHeader.altText"
+msgstr "Header Beranda"
+
+msgid "navigation.catalog"
+msgstr "Katalog"
+
+msgid "navigation.competingInterestPolicy"
+msgstr "Kebijakan Konflik Kepentingan"
+
+msgid "navigation.catalog.allMonographs"
+msgstr "Semua Monograf"
+
+msgid "navigation.catalog.manage"
+msgstr "Kelola"
+
+msgid "navigation.catalog.administration.short"
+msgstr "Administrasi"
+
+msgid "navigation.catalog.administration"
+msgstr "Administrasi Katalog"
+
+msgid "navigation.catalog.administration.categories"
+msgstr "Kategori"
+
+msgid "navigation.catalog.administration.series"
+msgstr "Seri"
+
+msgid "navigation.infoForAuthors"
+msgstr "Untuk Penulis"
+
+msgid "navigation.infoForLibrarians"
+msgstr "Untuk Pustakawan"
+
+msgid "navigation.infoForAuthors.long"
+msgstr "Informasi untuk Penulis"
+
+msgid "navigation.infoForLibrarians.long"
+msgstr "Informasi untuk Pustakawan"
+
+msgid "navigation.newReleases"
+msgstr "Terbitan Baru"
+
+msgid "navigation.published"
+msgstr "Diterbitkan"
+
+msgid "navigation.wizard"
+msgstr "Wisaya"
+
+msgid "navigation.linksAndMedia"
+msgstr "Tautan dan Media Sosial"
+
+msgid "navigation.navigationMenus.catalog.description"
+msgstr "Tautan ke katalog Anda."
+
+msgid "navigation.skip.spotlights"
+msgstr "Langsung ke sorotan"
+
+msgid "navigation.navigationMenus.series.generic"
+msgstr "Seri"
+
+msgid "navigation.navigationMenus.series.description"
+msgstr "Tautan ke seri."
+
+msgid "navigation.navigationMenus.category.generic"
+msgstr "Kategori"
+
+msgid "navigation.navigationMenus.category.description"
+msgstr "Tautan ke kategori."
+
+msgid "navigation.navigationMenus.newRelease"
+msgstr "Terbitan Baru"
+
+msgid "navigation.navigationMenus.newRelease.description"
+msgstr "Tautan ke terbitan baru Anda."
+
+msgid "context.contexts"
+msgstr "Penerbit"
+
+msgid "context.context"
+msgstr "Penerbit"
+
+msgid "context.current"
+msgstr "Penerbit Saat Ini:"
+
+msgid "context.select"
+msgstr "Beralih ke penerbit lain:"
+
+msgid "user.authorization.representationNotFound"
+msgstr "Format terbitan yang diminta tidak dapat ditemukan."
+
+msgid "user.noRoles.selectUsersWithoutRoles"
+msgstr "Sertakan pengguna yang tidak memiliki peran dalam penerbit ini."
+
+msgid "user.noRoles.submitMonograph"
+msgstr "Kirim Proposal"
+
+msgid "user.noRoles.submitMonographRegClosed"
+msgstr "Kirim Monograf: Pendaftaran penulis saat ini dinonaktifkan."
+
+msgid "user.noRoles.regReviewer"
+msgstr "Daftar sebagai Peninjau"
+
+msgid "user.noRoles.regReviewerClosed"
+msgstr "Daftar sebagai Peninjau: Pendaftaran peninjau saat ini dinonaktifkan."
+
+msgid "user.reviewerPrompt"
+msgstr "Apakah Anda bersedia meninjau kiriman ke penerbit ini?"
+
+msgid "user.reviewerPrompt.userGroup"
+msgstr "Ya, minta peran {$userGroup}."
+
+msgid "user.reviewerPrompt.optin"
+msgstr ""
+"Ya, saya ingin dihubungi terkait permintaan untuk meninjau kiriman ke "
+"penerbit ini."
+
+msgid "user.register.contextsPrompt"
+msgstr "Penerbit mana di situs ini yang ingin Anda daftarkan?"
+
+msgid "user.register.otherContextRoles"
+msgstr "Minta peran berikut."
+
+msgid "user.register.noContextReviewerInterests"
+msgstr ""
+"Jika Anda meminta untuk menjadi peninjau untuk media mana pun, silakan "
+"masukkan minat subjek Anda."
+
+msgid "user.role.manager"
+msgstr "Manajer Penerbitan"
+
+msgid "user.role.pressEditor"
+msgstr "Penyunting Penerbitan"
+
+msgid "user.role.subEditor"
+msgstr "Penyunting Seri"
+
+msgid "user.role.copyeditor"
+msgstr "Penyuntingan salinan"
+
+msgid "user.role.proofreader"
+msgstr "Korektor"
+
+msgid "user.role.productionEditor"
+msgstr "Penyunting Produksi"
+
+msgid "user.role.managers"
+msgstr "Manajer Penerbitan"
+
+msgid "user.role.subEditors"
+msgstr "Penyunting Seri"
+
+msgid "user.role.editors"
+msgstr "Penyunting"
+
+msgid "user.role.copyeditors"
+msgstr "Copyeditor"
+
+msgid "user.role.proofreaders"
+msgstr "Proofreader"
+
+msgid "user.role.productionEditors"
+msgstr "Penyunting Produksi"
+
+msgid "user.register.selectContext"
+msgstr "Pilih penerbit yang ingin didaftar:"
+
+msgid "user.register.noContexts"
+msgstr "Tidak ada penerbit yang dapat Anda daftarkan pada situs ini."
+
+msgid "user.register.privacyStatement"
+msgstr "Pernyataan Privasi"
+
+msgid "user.register.registrationDisabled"
+msgstr "Penerbit tidak menerima registrasi pengguna saat ini."
+
+msgid "user.register.form.passwordLengthTooShort"
+msgstr "Kata sandi yang Anda masukkan tidak cukup panjang."
+
+msgid "user.register.readerDescription"
+msgstr "Diberitahukan melalui email pada saat penerbitan monograf."
+
+msgid "user.register.authorDescription"
+msgstr "Bisa mengirimkan item ke penerbit."
+
+msgid "user.register.reviewerDescriptionNoInterests"
+msgstr "Bersedia melakukan tinjauan sejawat terhadap kiriman ke penerbit."
+
+msgid "user.register.reviewerDescription"
+msgstr "Bersedia melakukan tinjauan sejawat terhadap kiriman ke situs."
+
+msgid "user.register.reviewerInterests"
+msgstr ""
+"Mengidentifikasi minat peninjauan (area substantif dan metode penelitian):"
+
+msgid "user.register.form.userGroupRequired"
+msgstr "Anda harus memilih setidaknya satu peran"
+
+msgid "user.register.form.privacyConsentThisContext"
+msgstr ""
+"Ya, saya setuju agar data saya dikumpulkan dan disimpan sesuai dengan <a "
+"href=\"{$privacyUrl}\" target=\"_blank\">pernyataan privasi</a> penerbit ini."
+
+msgid "site.noPresses"
+msgstr "Tidak ada penerbit tersedia."
+
+msgid "site.pressView"
+msgstr "Lihat Situs Web Penerbit"
+
+msgid "about.pressContact"
+msgstr "Kontak Penerbit"
+
+msgid "about.aboutContext"
+msgstr "Tentang Penerbit"
+
+msgid "about.editorialTeam"
+msgstr "Tim Redaksi"
+
+msgid "about.editorialPolicies"
+msgstr "Kebijakan Redaksional"
+
+msgid "about.focusAndScope"
+msgstr "Fokus dan Cakupan"
+
+msgid "about.seriesPolicies"
+msgstr "Kebijakan Seri dan Kategori"
+
+msgid "about.submissions"
+msgstr "Submisi"
+
+msgid "about.onlineSubmissions"
+msgstr "Submisi Daring"
+
+msgid "about.onlineSubmissions.login"
+msgstr "Masuk"
+
+msgid "about.onlineSubmissions.register"
+msgstr "Daftar"
+
+msgid "about.onlineSubmissions.registrationRequired"
+msgstr "{$login} atau {$register} untuk membuat submisi."
+
+msgid "about.onlineSubmissions.submissionActions"
+msgstr "{$newSubmission} atau {$viewSubmissions}."
+
+msgid "about.onlineSubmissions.newSubmission"
+msgstr "Buat submisi baru"
+
+msgid "about.onlineSubmissions.viewSubmissions"
+msgstr "lihat submisi tertunda"
+
+msgid "about.authorGuidelines"
+msgstr "Pedoman Penulis"
+
+msgid "about.submissionPreparationChecklist"
+msgstr "Daftar Periksa Persiapan Submisi"
+
+msgid "about.submissionPreparationChecklist.description"
+msgstr ""
+"Sebagai bagian dari proses submisi, penulis diharuskan untuk memeriksa "
+"kepatuhan submisi mereka terhadap semua item berikut, dan submisi dapat "
+"dikembalikan ke penulis yang tidak mematuhi pedoman ini."
+
+msgid "about.copyrightNotice"
+msgstr "Pemberitahuan Hak Cipta"
+
+msgid "about.privacyStatement"
+msgstr "Pernyataan Privasi"
+
+msgid "about.reviewPolicy"
+msgstr "Proses Tinjauan Sejawat"
+
+msgid "about.publicationFrequency"
+msgstr "Frekuensi Terbit"
+
+msgid "about.openAccessPolicy"
+msgstr "Kebijakan Akses Terbuka"
+
+msgid "about.pressSponsorship"
+msgstr "Sponsor Penerbit"
+
+msgid "about.aboutThisPublishingSystem"
+msgstr ""
+"Informasi selengkapnya tentang sistem penerbitan, Platform dan Alur Kerja "
+"oleh OMP/PKP."
+
+msgid "about.aboutThisPublishingSystem.altText"
+msgstr "Proses Editorial dan Penerbitan OMP"
+
+msgid "about.aboutSoftware"
+msgstr "Tentang Open Monograph Press"
+
+msgid "about.aboutOMPPress"
+msgstr ""
+"Penerbit ini menggunakan Open Monograph Press {$ompVersion}, yang merupakan "
+"perangkat lunak manajemen dan penerbitan sumber terbuka yang dikembangkan, "
+"didukung, dan didistribusikan secara bebas oleh Public Knowledge Project di "
+"bawah Lisensi Publik Umum GNU. Kunjungi situs web PKP untuk <a href=\"https"
+"://pkp.sfu.ca/\">mempelajari lebih lanjut tentang perangkat lunak</a>. "
+"Silakan <a href=\"{$contactUrl}\">menghubungi penerbit</a> secara langsung "
+"jika Anda memiliki pertanyaan tentang penerbit dan submisi ke penerbit."
+
+msgid "about.aboutOMPSite"
+msgstr ""
+"Penerbit ini menggunakan Open Monograph Press {$ompVersion}, yang merupakan "
+"perangkat lunak manajemen dan penerbitan sumber terbuka yang dikembangkan, "
+"didukung, dan didistribusikan secara bebas oleh Public Knowledge Project di "
+"bawah Lisensi Publik Umum GNU. Kunjungi situs web PKP untuk <a href=\"https"
+"://pkp.sfu.ca/\">mempelajari lebih lanjut tentang perangkat lunak</a>. "
+"Silakan hubungi situs tersebut secara langsung jika Anda memiliki pertanyaan "
+"tentang penerbit dan kiriman ke penerbit."
+
+msgid "help.searchReturnResults"
+msgstr "Kembali ke Hasil Pencarian"
+
+msgid "help.goToEditPage"
+msgstr "Buka halaman baru untuk menyunting informasi ini"
+
+msgid "installer.appInstallation"
+msgstr "Instalasi OMP"
+
+msgid "installer.ompUpgrade"
+msgstr "Peningkatan OMP"
+
+msgid "installer.installApplication"
+msgstr "Instal Open Monograph Press"
+
+msgid "installer.updatingInstructions"
+msgstr ""
+"Jika Anda meningkatkan instalasi OMP yang ada, <a href=\"{$upgradeUrl}\""
+">klik di sini</a> untuk melanjutkan."
+
+msgid "installer.installationInstructions"
+msgstr ""
+"<p>Terima kasih telah mengunduh <strong>Open Monograph Press {$version}</"
+"strong> dari Public Knowledge Project. Sebelum melanjutkan, harap baca "
+"file<a href=\"{$baseUrl}/README.md\">BACA SAYA</a> yang disertakan "
+"dengan perangkat lunak ini. Untuk informasi lebih lanjut tentang Public "
+"Knowledge Project dan proyek perangkat lunaknya, silakan kunjungi <a href="
+"\"https://pkp.sfu.ca/\" target=\"_blank\">situs web PKP</a>. Jika Anda "
+"memiliki laporan bug atau pertanyaan dukungan teknis tentang Open Monograph "
+"Press, lihat <a href=\"https://forum.pkp.sfu.ca\" target=\"_blank\">forum "
+"dukungan</a> atau kunjungi <a href=\"https://github.com/pkp/pkp-lib/issues/\""
+" target=\"_blank\">sistem pelaporan bug</a> daring PKP. Meskipun forum "
+"dukungan adalah metode kontak yang lebih disukai, Anda juga dapat mengirim "
+"email ke tim di <a href=\"mailto:pkp.contact@gmail.com\">pkp.contact@gmail."
+"com</a>.</p>"
+
+msgid "installer.preInstallationInstructionsTitle"
+msgstr "Langkah Pra-Instalasi"
+
+msgid "installer.preInstallationInstructions"
+msgstr ""
+"<p>1. File dan direktori berikut (dan isinya) harus dibuat dapat ditulis:</p>"
+"\n"
+"<ul>\n"
+"\t<li><tt>config.inc.php</tt> dapat ditulis (opsional): "
+"{$writable_config}</li>\n"
+"\t<li><tt>public/</tt> dapat ditulis: {$writable_public}</li>\n"
+"\t<li><tt>cache/</tt> dapat ditulis: {$writable_cache}</li>\n"
+"\t<li><tt>cache/t_cache/</tt> dapat ditulis: {$writable_templates_cache}</li>"
+"\n"
+"\t<li><tt>cache/t_compile/</tt> dapat ditulis: "
+"{$writable_templates_compile}</li>\n"
+"\t<li><tt>cache/_db</tt> dapat ditulis: {$writable_db_cache}</li>\n"
+"</ul>\n"
+"\n"
+"<p>2. Direktori untuk menyimpan file yang diunggah harus dibuat dan dibuat "
+"dapat ditulis (lihat \"Pengaturan File\" di bawah).</p>"
+
+msgid "installer.upgradeInstructions"
+msgstr ""
+"<h4>Versi OMP {$version}</h4>\n"
+"\n"
+"<p>Terima kasih telah mengunduh <strong>Open Monograph Press</strong> dari "
+"Public Knowledge Project. Sebelum melanjutkan, silakan baca <a href=\""
+"{$baseUrl}/README.md\">README</a> dan <a href=\"https://docs.pkp.sfu.ca/dev/"
+"upgrade-guide)\">Panduan Peningkatan</a>. Untuk informasi lebih lanjut "
+"tentang Public Knowledge Project dan proyek perangkat lunaknya, silakan "
+"kunjungi <a href=\"https://pkp.sfu.ca/\" target=\"_blank\">situs web PKP</"
+"a>. Jika Anda memiliki laporan bug atau pertanyaan dukungan teknis tentang "
+"Open Monograph Press, lihat <a href=\"https://forum.pkp.sfu.ca\" target="
+"\"_blank\">forum dukungan</a> atau kunjungi <a href=\"https://github.com/pkp/"
+"pkp-lib/issues\" target=\"_blank\">sistem pelaporan bug</a> daring PKP. "
+"Meskipun forum dukungan adalah metode kontak yang lebih disarankan, Anda "
+"juga dapat mengirim email kepada tim di <a href=\"mailto:pkp.contact@gmail."
+"com\">pkp.contact@gmail.com</a>.</p>\n"
+"<p><strong>Sangat disarankan</strong> agar Anda mencadangkan basis data, "
+"direktori berkas, dan direktori instalasi OMP sebelum melanjutkan.</p>"
+
+msgid "installer.localeSettingsInstructions"
+msgstr ""
+"Untuk dukungan Unicode yang lengkap, PHP harus dikompilasi dengan dukungan "
+"untuk pustaka <a href=\"https://www.php.net/mbstring\" target=\"_blank\""
+">mbstring</a> (diaktifkan secara default di sebagian besar instalasi PHP "
+"terkini). Anda mungkin mengalami masalah saat menggunakan set karakter yang "
+"diperluas jika server Anda tidak memenuhi persyaratan ini.\n"
+"<br /><br />\n"
+"Server Anda saat ini mendukung mbstring: <strong>{$supportsMBString}</strong>"
+
+msgid "installer.allowFileUploads"
+msgstr ""
+"Server Anda saat ini mengizinkan pengunggahan file: "
+"<strong>{$allowFileUploads}</strong>"
+
+msgid "installer.maxFileUploadSize"
+msgstr ""
+"Server Anda saat ini mengizinkan ukuran unggahan file maksimum: "
+"<strong>{$maxFileUploadSize}</strong>"
+
+msgid "installer.localeInstructions"
+msgstr ""
+"Bahasa utama yang digunakan untuk sistem ini. Silakan lihat dokumentasi OMP "
+"jika Anda tertarik dengan dukungan untuk bahasa yang tidak tercantum di sini."
+
+msgid "installer.additionalLocalesInstructions"
+msgstr ""
+"Pilih bahasa tambahan apa pun yang ingin didukung dalam sistem ini. Bahasa-"
+"bahasa ini akan tersedia untuk digunakan oleh penerbit yang dihosting di "
+"situs ini. Bahasa tambahan juga dapat diinstal kapan saja dari antarmuka "
+"administrasi situs. Lokalisasi yang ditandai * mungkin tidak lengkap."
+
+msgid "installer.filesDirInstructions"
+msgstr ""
+"Masukkan nama jalur berkas lengkap ke direktori yang sudah ada tempat file "
+"yang diunggah akan disimpan. Direktori ini tidak boleh dapat diakses "
+"langsung melalui web. <strong>Pastikan direktori ini ada dan dapat ditulis "
+"sebelum instalasi.</strong> Nama jalur Windows harus menggunakan garis "
+"miring, misalnya \"C:/mypress/files\"."
+
+msgid "installer.databaseSettingsInstructions"
+msgstr ""
+"OMP memerlukan akses ke basis data SQL untuk menyimpan datanya. Lihat "
+"persyaratan sistem di atas untuk daftar basis data yang didukung. Di kolom "
+"di bawah, berikan pengaturan yang akan digunakan untuk terhubung ke basis "
+"data."
+
+msgid "installer.upgradeApplication"
+msgstr "Tingkatkan Open Monograph Press"
+
+msgid "installer.overwriteConfigFileInstructions"
+msgstr ""
+"<h4>PENTING!</h4>\n"
+"<p>Penginstal tidak dapat secara otomatis menimpa berkas konfigurasi. "
+"Sebelum mencoba menggunakan sistem, harap buka <tt>config.inc.php</tt> di "
+"penyunting teks yang sesuai dan ganti isinya dengan isi kolom teks di bawah "
+"ini.</p>"
+
+msgid "installer.installationComplete"
+msgstr ""
+"<p>Pemasangan OMP telah berhasil diselesaikan.</p>\n"
+"<p>Untuk mulai menggunakan sistem, <a href=\"{$loginUrl}\">masuk</a> dengan "
+"nama pengguna dan kata sandi yang dimasukkan pada halaman sebelumnya.</p>\n"
+"<p>Kunjungi <a href=\"https://forum.pkp.sfu.ca\" target=\"_new\">forum "
+"komunitas</a> kami atau daftar ke <a href=\"https://pkp.sfu.ca/developer-"
+"newsletter\" target=\"_new\">buletin pengembang</a> kami untuk menerima "
+"pemberitahuan keamanan, dan pembaruan tentang rilis mendatang, plugin baru, "
+"dan fitur yang direncanakan.</p>"
+
+msgid "installer.upgradeComplete"
+msgstr ""
+"<p>Peningkatan OMP ke versi {$version} telah berhasil diselesaikan.</p>\n"
+"<p>Jangan lupa untuk menyetel kembali pengaturan \"installed\" di berkas "
+"konfigurasi <tt>config.inc.php</tt> Anda ke <em>Aktif</em>.</p>\n"
+"<p>Kunjungi <a href=\"https://forum.pkp.sfu.ca\" target=\"_new\">forum "
+"komunitas</a> kami atau daftar ke <a href=\"https://pkp.sfu.ca/developer-"
+"newsletter\" target=\"_new\">buletin pengembang</a> kami untuk menerima "
+"pemberitahuan keamanan, dan pembaruan tentang rilis mendatang, plugin baru, "
+"dan fitur yang direncanakan.</p>"
+
+msgid "log.review.reviewDueDateSet"
+msgstr ""
+"Batas waktu untuk tinjauan tahap {$round} atas kiriman {$submissionId} oleh "
+"{$reviewerName} telah ditetapkan ke {$dueDate}."
+
+msgid "log.review.reviewDeclined"
+msgstr ""
+"{$reviewerName} telah menolak tahap peninjauan {$round} untuk submisi "
+"{$submissionId}."
+
+msgid "log.review.reviewAccepted"
+msgstr ""
+"{$reviewerName} telah menerima tahap peninjauan {$round} untuk submisi "
+"{$submissionId}."
+
+msgid "log.review.reviewUnconsidered"
+msgstr ""
+"{$editorName} telah menandai tahao peninjauan {$round} untuk submisi "
+"{$submissionId} sebagai belum dipertimbangkan."
+
+msgid "log.editor.decision"
+msgstr ""
+"Keputusan penyunting ({$decision}) untuk monograf {$submissionId} dicatat "
+"oleh {$editorName}."
+
+msgid "log.editor.recommendation"
+msgstr ""
+"Rekomendasi penyunting ({$decision}) untuk monograf {$submissionId} dicatat "
+"oleh {$editorName}."
+
+msgid "log.editor.archived"
+msgstr "Submisi {$submissionId} telah diarsipkan."
+
+msgid "log.editor.restored"
+msgstr "Submisi {$submissionId} telah dikembalikan ke antrean."
+
+msgid "log.editor.editorAssigned"
+msgstr ""
+"{$editorName} telah ditetapkan sebagai oenyunting untuk kiriman "
+"{$submissionId}."
+
+msgid "log.proofread.assign"
+msgstr ""
+"{$assignerName} telah menugaskan {$proofreaderName} untuk melakukan "
+"proofread untuk submisi {$submissionId}."
+
+msgid "log.proofread.complete"
+msgstr "{$proofreaderName} telah mengirimkan {$submissionId} untuk penjadwalan."
+
+msgid "log.imported"
+msgstr "{$userName} telah mengimpor monograf {$submissionId}."
+
+msgid "notification.addedIdentificationCode"
+msgstr "Kode Identifikasi ditambahkan."
+
+msgid "notification.editedIdentificationCode"
+msgstr "Kode Identifikasi disunting."
+
+msgid "notification.removedIdentificationCode"
+msgstr "Kode Identifikasi dihapus."
+
+msgid "notification.addedPublicationDate"
+msgstr "Tanggal Terbit ditambahkan."
+
+msgid "notification.editedPublicationDate"
+msgstr "Tanggal Terbit diubah."
+
+msgid "notification.removedPublicationDate"
+msgstr "Tanggal Terbit dihapus."
+
+msgid "notification.addedPublicationFormat"
+msgstr "Format Terbitan ditambah."
+
+msgid "notification.editedPublicationFormat"
+msgstr "Format Terbitan diubah."
+
+msgid "notification.removedPublicationFormat"
+msgstr "Format Terbitan dihapus."
+
+msgid "notification.addedSalesRights"
+msgstr "Hak Penjualan ditambahkan."
+
+msgid "notification.editedSalesRights"
+msgstr "Hak Penjualan disunting."
+
+msgid "notification.removedSalesRights"
+msgstr "Hak Penjualan dihapus."
+
+msgid "notification.addedRepresentative"
+msgstr "Perwakilan ditambahkan."
+
+msgid "notification.editedRepresentative"
+msgstr "Perwakilan diubah."
+
+msgid "notification.removedRepresentative"
+msgstr "Perwakilan diubah."
+
+msgid "notification.addedMarket"
+msgstr "Pasar ditambahkan."
+
+msgid "notification.editedMarket"
+msgstr "Pasar diubah."
+
+msgid "notification.removedMarket"
+msgstr "Pasar dihapus."
+
+msgid "notification.addedSpotlight"
+msgstr "Sorotan ditambahkan."
+
+msgid "notification.editedSpotlight"
+msgstr "Sorotan diubah."
+
+msgid "notification.removedSpotlight"
+msgstr "Sorotan dihapus."
+
+msgid "notification.savedCatalogMetadata"
+msgstr "Metadata katalog disimpan."
+
+msgid "notification.savedPublicationFormatMetadata"
+msgstr "Metadata format terbitan disimpan."
+
+msgid "notification.proofsApproved"
+msgstr "Proof disetujui."
+
+msgid "notification.removedSubmission"
+msgstr "Submisi dihapus."
+
+msgid "notification.type.submissionSubmitted"
+msgstr "Monograf baru, \"{$title},\" telah dikirimkan."
+
+msgid "notification.type.editing"
+msgstr "Event Penyuntingan"
+
+msgid "notification.type.reviewing"
+msgstr "Event Peninjauan"
+
+msgid "notification.type.site"
+msgstr "Event Situs"
+
+msgid "notification.type.submissions"
+msgstr "Event Submisi"
+
+msgid "notification.type.userComment"
+msgstr "Pembaca telah memberikan komentar pada \"{$title}\"."
+
+msgid "notification.type.public"
+msgstr "Pengumuman Publik"
+
+msgid "notification.type.editorAssignmentTask"
+msgstr "Monograf baru telah diserahkan dan perlu menunjuk editor."
+
+msgid "notification.type.layouteditorRequest"
+msgstr "Anda telah diminta untuk meninjau tata letak untuk \"{$title}\"."
+
+msgid "notification.type.indexRequest"
+msgstr "Anda telah diminta untuk membuat indeks untuk \"{$title}\"."
+
+msgid "notification.type.editorDecisionInternalReview"
+msgstr "Proses peninjauan internal dimulai."
+
+msgid "notification.type.approveSubmission"
+msgstr ""
+"Pengajuan ini saat ini sedang menunggu persetujuan di alat Entri Katalog "
+"sebelum muncul di katalog publik."
+
+msgid "notification.type.approveSubmissionTitle"
+msgstr "Menunggu persetujuan."
+
+msgid "notification.type.formatNeedsApprovedSubmission"
+msgstr ""
+"Monograf tersebut tidak akan dicantumkan dalam katalog hingga diterbitkan. "
+"Untuk menambahkan buku ini ke katalog, klik pada tab Publikasi."
+
+msgid "notification.type.configurePaymentMethod.title"
+msgstr "Tidak ada metode pembayaran yang diatur."
+
+msgid "notification.type.configurePaymentMethod"
+msgstr ""
+"Metode pembayaran yang dikonfigurasi diperlukan sebelum Anda dapat "
+"menentukan pengaturan e-commerce."
+
+msgid "notification.type.visitCatalogTitle"
+msgstr "Manajemen Katalog"
+
+msgid "notification.type.visitCatalog"
+msgstr ""
+"Monograf telah disetujui. Silakan kunjungi bagian Pemasaran dan Publikasi "
+"untuk mengelola detail katalognya, menggunakan tautan di atas."
+
+msgid "user.authorization.invalidReviewAssignment"
+msgstr ""
+"Akses Anda ditolak karena Anda tampaknya bukan peninjau yang valid untuk "
+"monograf ini."
+
+msgid "user.authorization.monographAuthor"
+msgstr "Akses Anda ditolak karena Anda tampaknya bukan penulis monograf ini."
+
+msgid "user.authorization.monographReviewer"
+msgstr ""
+"Akses Anda ditolak karena Anda tampaknya bukan peninjau yang ditugaskan "
+"untuk monograf ini."
+
+msgid "user.authorization.monographFile"
+msgstr "Anda telah ditolak akses ke berkas monograf yang ditentukan."
+
+msgid "user.authorization.invalidMonograph"
+msgstr "Monograf tidak valid atau tidak ada monograf yang diminta!"
+
+msgid "user.authorization.noContext"
+msgstr "Tidak ditemukan penerbit yang sesuai dengan permintaan Anda."
+
+msgid "user.authorization.seriesAssignment"
+msgstr "Anda mencoba mengakses monograf yang bukan bagian dari seri Anda."
+
+msgid "user.authorization.workflowStageAssignmentMissing"
+msgstr "Akses ditolak! Anda belum ditugaskan ke tahap alur kerja ini."
+
+msgid "user.authorization.workflowStageSettingMissing"
+msgstr ""
+"Akses ditolak! Grup pengguna yang saat ini Anda gunakan belum ditetapkan ke "
+"tahap alur kerja ini. Harap periksa pengaturan penerbit Anda."
+
+msgid "payment.directSales"
+msgstr "Unduh Dari Situs Web Penerbit"
+
+msgid "payment.directSales.price"
+msgstr "Harga"
+
+msgid "payment.directSales.availability"
+msgstr "Ketersediaan"
+
+msgid "payment.directSales.catalog"
+msgstr "Katalog"
+
+msgid "payment.directSales.approved"
+msgstr "Disetujui"
+
+msgid "payment.directSales.priceCurrency"
+msgstr "Harga ({$currency})"
+
+msgid "payment.directSales.numericOnly"
+msgstr "Harga harus berupa angka saja. Jangan sertakan simbol mata uang."
+
+msgid "payment.directSales.directSales"
+msgstr "Penjualan Langsung"
+
+msgid "payment.directSales.amount"
+msgstr "{$amount} ({$currency})"
+
+msgid "payment.directSales.notAvailable"
+msgstr "Tidak Tersedia"
+
+msgid "payment.directSales.notSet"
+msgstr "Belum Diatur"
+
+msgid "payment.directSales.openAccess"
+msgstr "Akses Terbuka"
+
+msgid "payment.directSales.price.description"
+msgstr ""
+"Format berkas dapat disediakan untuk diunduh dari situs web penerbit melalui "
+"akses terbuka tanpa biaya bagi pembaca atau penjualan langsung (menggunakan "
+"pemroses pembayaran daring, sebagaimana dikonfigurasi dalam Distribusi). "
+"Untuk berkas ini, tunjukkan dasar aksesnya."
+
+msgid "payment.directSales.validPriceRequired"
+msgstr "Diperlukan harga numerik yang valid."
+
+msgid "payment.directSales.purchase"
+msgstr "Beli {$format} ({$currency} {$amount})"
+
+msgid "payment.directSales.download"
+msgstr "Unduh {$format}"
+
+msgid "payment.directSales.monograph.name"
+msgstr "Beli Monograf atau Unduh Bab"
+
+msgid "payment.directSales.monograph.description"
+msgstr ""
+"Transaksi ini untuk pembelian unduhan langsung satu monograf atau satu bab "
+"monograf."
+
+msgid "debug.notes.helpMappingLoad"
+msgstr ""
+"Memuat ulang file pemetaan bantuan XML {$filename} dalam pencarian {$id}."
+
+msgid "rt.metadata.pkp.dctype"
+msgstr "Buku"
+
+msgid "submission.pdf.download"
+msgstr "Unduh file PDF ini"
+
+msgid "user.profile.form.showOtherContexts"
+msgstr "Daftar dengan penerbit lain"
+
+msgid "user.profile.form.hideOtherContexts"
+msgstr "Sembunyikan penerbit lainnya"
+
+msgid "submission.round"
+msgstr "Tahap&nbsp;{$round}"
+
+msgid "user.authorization.invalidPublishedSubmission"
+msgstr "Submisi tidak valid yang diterbitkan telah ditentukan."
+
+msgid "catalog.coverImageTitle"
+msgstr "Gambar Sampul"
+
+msgid "grid.catalogEntry.chapters"
+msgstr "Bab"
+
+msgid "search.results.orderBy.article"
+msgstr "Judul Artikel"
+
+msgid "search.results.orderBy.author"
+msgstr "Penulis"
+
+msgid "search.results.orderBy.date"
+msgstr "Tanggat Terbit"
+
+msgid "search.results.orderBy.monograph"
+msgstr "Judul Monograf"
+
+msgid "search.results.orderBy.press"
+msgstr "Judul Penerbit"
+
+msgid "search.results.orderBy.popularityAll"
+msgstr "Popularitas (Semua Waktu)"
+
+msgid "search.results.orderBy.popularityMonth"
+msgstr "Popularitas (Bulan Lalu)"
+
+msgid "search.results.orderBy.relevance"
+msgstr "Relevansi"
+
+msgid "search.results.orderDir.asc"
+msgstr "Menaik"
+
+msgid "search.results.orderDir.desc"
+msgstr "Menurun"
+
+msgid "section.section"
+msgstr "Seri"
+
+msgid "search.cli.rebuildIndex.indexing"
+msgstr "Mengindeks \"{$pressName}\""
+
+msgid "search.cli.rebuildIndex.indexingByPressNotSupported"
+msgstr ""
+"Implementasi penelusuran ini tidak mengizinkan pengindeksan ulang per "
+"penerbit."
+
+msgid "search.cli.rebuildIndex.unknownPress"
+msgstr ""
+"Jalur berkas penerbit yang diberikan \"{$pressPath}\" tidak dapat "
+"diselesaikan menjadi penerbit."
+
+msgid "site.upgradeAvailable.manager"
+msgstr ""
+"Tersedia versi baru OMP! Saat ini Anda menggunakan OMP {$currentVersion}. "
+"Versi terbaru adalah OMP {$latestVersion}. Silakan hubungi Administrator "
+"Situs Anda ({$siteAdminName}, <a href=\"mailto:{$siteAdminEmail}\""
+">{$siteAdminEmail}</a>) untuk memberi tahu mereka tentang rilis baru ini. "
+"Informasi selengkapnya dapat ditemukan <a href=\"https://pkp.sfu.ca/"
+"omp_download/\" target=\"_new\">di situs web PKP</a>."
+
+msgid "site.upgradeAvailable.admin"
+msgstr ""
+"Tersedia versi baru OMP! Saat ini Anda menggunakan OMP {$currentVersion}. "
+"Versi terbaru adalah OMP {$latestVersion}. Silakan kunjungi <a href=\"https"
+"://pkp.sfu.ca/omp_download\" target=\"_new\">situs web PKP</a> untuk "
+"mengunduh versi terbaru dan menemukan petunjuk pemutakhiran."
+
+msgid "monograph.publicationFormat.onixDeprecated"
+msgstr " (Dihentikan)"
+
+msgid "navigation.skip.about"
+msgstr "Lewati ke tentang penerbit"

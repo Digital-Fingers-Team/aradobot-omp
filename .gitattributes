@@ -1,0 +1,2 @@
+# Preserve exact bytes / line endings — do not convert EOLs on a PHP codebase.
+* -text

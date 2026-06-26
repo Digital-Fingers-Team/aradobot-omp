@@ -1,0 +1,19 @@
+{
+    "timeout": 100,
+    "source": {
+        "directories": [
+            "src"
+        ]
+    },
+    "phpUnit": {
+        "configDir": "."
+    },
+    "logs": {
+        "text": "build/infection/text.log",
+        "summary": "build/infection/summary.log",
+        "perMutator": "build/infection/perMutator.md",
+        "badge": {
+            "branch": "3.0"
+        }
+    }
+}
