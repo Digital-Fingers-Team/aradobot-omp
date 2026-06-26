@@ -34,5 +34,8 @@ services:
       - omp-files:/var/www/files
 
 volumes:
+  # Fixed names so the data survives regardless of the compose project/dir name.
   omp-db-data:
+    name: omp-db-data
   omp-files:
+    name: omp-files
