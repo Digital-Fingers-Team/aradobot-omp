@@ -3,6 +3,9 @@
 .github
 cypress*
 *.log
+# Compose/docs aren't needed inside the runtime image
+docker-compose.yml
+SETUP.md
 # Runtime cache (recreated in the Dockerfile) and uploaded files
 cache/
 files/
