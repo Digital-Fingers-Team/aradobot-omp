@@ -28,7 +28,7 @@ services:
       omp-db:
         condition: service_healthy
     ports:
-      - "8081:80"
+      - "8091:80"
     volumes:
       # Persist uploaded files across rebuilds (code itself is baked into image).
       - omp-files:/var/www/files

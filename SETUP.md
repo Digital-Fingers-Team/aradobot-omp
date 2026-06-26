@@ -4,7 +4,7 @@ Open Monograph Press (PHP 8.2 + MariaDB), packaged to run via Docker straight
 from this repository. The application code is baked into the image (not
 bind-mounted), so it runs fast on any host.
 
-- **App URL (local):** http://localhost:8081
+- **App URL (local):** http://localhost:8091
 - **Database:** MariaDB (service `omp-db`) — db `omp`, user `omp`, pass `omp_pass`
 
 ## Run locally
@@ -15,7 +15,7 @@ Requires Docker. From the repo root:
 docker compose up -d --build
 ```
 
-Then open http://localhost:8081 and complete the installation form if this is a
+Then open http://localhost:8091 and complete the installation form if this is a
 fresh database:
 
 - Database driver: **MySQLi**
