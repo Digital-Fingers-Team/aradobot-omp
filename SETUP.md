@@ -55,3 +55,18 @@ Authorization: Bearer <API_KEY>
 ```
 
 Generate an API key from the admin profile (Profile → API Key).
+
+> **Important — `api_key_secret` must live in `config.inc.php`.** API tokens are
+> JWTs signed with `[security] api_key_secret`. Because the code (and config) is
+> baked into the image, this secret **must** be set in the repo's
+> `config.inc.php` — if it's only set on a running container it is **wiped on the
+> next `--build`**, invalidating every issued token (symptom: API returns
+> *"the site administrator has not configured a secret key"*). The bookbot app's
+> `OMP_API_TOKEN` must be signed with this same secret.
+
+## bookbot author SSO (bookbotSso plugin)
+
+The bookbot app onboards authors into OMP. See
+[`plugins/generic/bookbotSso/README.md`](plugins/generic/bookbotSso/README.md)
+for the token-login handler, the shared `[bookbot] sso_secret`, and the
+DB rows (`install.sql`) needed to enable it.
