@@ -42,13 +42,13 @@ class BookbotSsoHandler extends Handler
 
         $secret = Config::getVar('bookbot', 'sso_secret');
         $token = (string) $request->getUserVar('token');
-        $userId = $secret ? $this->verifyToken($token, $secret) : null;
+        $payload = $secret ? $this->verifyToken($token, $secret) : null;
 
-        if ($userId === null) {
+        if ($payload === null) {
             $this->fail($request);
         }
 
-        $user = Repo::user()->get($userId);
+        $user = Repo::user()->get((int) $payload['uid']);
         if (!$user) {
             $this->fail($request);
         }
@@ -58,35 +58,57 @@ class BookbotSsoHandler extends Handler
             $this->fail($request);
         }
 
-        // Grant the Author role so the user can start submissions and enter the
-        // editorial workflow (self-registration only yields the Reader role).
-        $this->ensureAuthorRole($user, $request);
+        // Grant roles: Author for everyone (so they can submit and enter the
+        // editorial workflow); plus OMP admin roles for bookbot admins.
+        $this->ensureRoles($user, $request, !empty($payload['adm']));
 
-        // Land the author on their submissions dashboard.
+        // Land the user on their dashboard.
         $request->redirect(null, 'submissions');
     }
 
     /**
-     * Idempotently assign the context's Author user group to the user.
+     * Idempotently assign the user's OMP roles.
+     *
+     * Everyone gets the context Author role. bookbot admins additionally get
+     * Press Manager (this press) and Site Administrator (sitewide), mirroring a
+     * full OMP admin account.
      */
-    private function ensureAuthorRole($user, PKPRequest $request): void
+    private function ensureRoles($user, PKPRequest $request, bool $isAdmin): void
     {
         $context = $request->getContext();
-        if (!$context) {
-            return;
+        if ($context) {
+            $authorGroup = Repo::userGroup()
+                ->getByRoleIds([Role::ROLE_ID_AUTHOR], $context->getId())
+                ->first();
+            $this->assignIfMissing($user->getId(), $authorGroup?->id);
+
+            if ($isAdmin) {
+                $managerGroup = Repo::userGroup()
+                    ->getByRoleIds([Role::ROLE_ID_MANAGER], $context->getId())
+                    ->first();
+                $this->assignIfMissing($user->getId(), $managerGroup?->id);
+            }
         }
-        $authorGroup = Repo::userGroup()
-            ->getByRoleIds([Role::ROLE_ID_AUTHOR], $context->getId())
-            ->first();
-        if ($authorGroup && !Repo::userGroup()->userInGroup($user->getId(), $authorGroup->id)) {
-            Repo::userGroup()->assignUserToGroup($user->getId(), $authorGroup->id);
+
+        if ($isAdmin) {
+            // Site Administrator groups are sitewide (no context).
+            foreach (Repo::userGroup()->getArrayIdByRoleId(Role::ROLE_ID_SITE_ADMIN) as $groupId) {
+                $this->assignIfMissing($user->getId(), $groupId);
+            }
+        }
+    }
+
+    private function assignIfMissing(int $userId, ?int $userGroupId): void
+    {
+        if ($userGroupId && !Repo::userGroup()->userInGroup($userId, $userGroupId)) {
+            Repo::userGroup()->assignUserToGroup($userId, $userGroupId);
         }
     }
 
     /**
-     * Verify the HMAC signature + expiry. Returns the user id or null.
+     * Verify the HMAC signature + expiry. Returns the decoded payload or null.
      */
-    private function verifyToken(string $token, string $secret): ?int
+    private function verifyToken(string $token, string $secret): ?array
     {
         $parts = explode('.', $token);
         if (count($parts) !== 2) {
@@ -106,7 +128,7 @@ class BookbotSsoHandler extends Handler
         if ((int) $payload['exp'] < time()) {
             return null;
         }
-        return (int) $payload['uid'];
+        return $payload;
     }
 
     private function b64url(string $raw): string
