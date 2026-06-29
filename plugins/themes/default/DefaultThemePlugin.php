@@ -169,6 +169,9 @@ class DefaultThemePlugin extends ThemePlugin
         if (($baseColour = $this->getOption('baseColour')) !== '#1E6292') {
             if (!preg_match('/^#[0-9a-fA-F]{1,6}$/', $baseColour)) $baseColour = '#1E6292'; // pkp/pkp-lib#11974
             $additionalLessVariables[] = '@bg-base:' . $baseColour . ';';
+            // bookbot: also drive the accent/link colour (@primary) from the base
+            // colour so links, buttons and highlights match (not just the header).
+            $additionalLessVariables[] = '@primary:' . $baseColour . ';';
             if (!$this->isColourDark($baseColour)) {
                 $additionalLessVariables[] = '@text-bg-base:rgba(0,0,0,0.84);';
                 $additionalLessVariables[] = '@bg-base-border-color:rgba(0,0,0,0.2);';
