@@ -36,10 +36,6 @@ class BookbotSsoHandler extends Handler
      */
     public function login($args, $request)
     {
-        if (Validation::isLoggedIn()) {
-            $request->redirect(null, 'submissions');
-        }
-
         $secret = Config::getVar('bookbot', 'sso_secret');
         $token = (string) $request->getUserVar('token');
         $payload = $secret ? $this->verifyToken($token, $secret) : null;
@@ -48,11 +44,17 @@ class BookbotSsoHandler extends Handler
             $this->fail($request);
         }
 
-        $user = Repo::user()->get((int) $payload['uid']);
+        $targetId = (int) $payload['uid'];
+
+        $user = Repo::user()->get($targetId);
         if (!$user) {
             $this->fail($request);
         }
 
+        // Always (re)bind the session to the token's user. This overwrites any
+        // existing session, so switching bookbot accounts (a different email ->
+        // a different OMP user) lands on the correct OMP account instead of
+        // keeping whoever was logged in before.
         $reason = null;
         if (!Validation::registerUserSession($user, $reason)) {
             $this->fail($request);
