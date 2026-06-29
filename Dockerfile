@@ -30,6 +30,13 @@ RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
         xsl \
         opcache
 
+# --- Apache: normalize the MPM ---
+# mod_php (this image runs PHP as an Apache module) requires the prefork MPM.
+# If more than one MPM is enabled Apache refuses to start with
+# "Configuration error: More than one MPM loaded." Force prefork only.
+RUN a2dismod mpm_event mpm_worker 2>/dev/null || true \
+    && a2enmod mpm_prefork
+
 # --- Apache: enable rewrite + allow .htaccess overrides ---
 RUN a2enmod rewrite
 RUN sed -ri 's!AllowOverride None!AllowOverride All!g' /etc/apache2/apache2.conf || true
