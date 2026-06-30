@@ -47,6 +47,11 @@ RUN rm -f /etc/apache2/mods-enabled/mpm_*.load /etc/apache2/mods-enabled/mpm_*.c
 RUN a2enmod rewrite
 RUN sed -ri 's!AllowOverride None!AllowOverride All!g' /etc/apache2/apache2.conf || true
 
+# Behind Railway's TLS-terminating proxy the app is reached over plain HTTP, so
+# PHP sees no HTTPS and OMP emits http:// asset URLs (blocked as mixed content
+# on an https page). Trust X-Forwarded-Proto so PHP knows the original scheme.
+RUN printf 'SetEnvIf X-Forwarded-Proto "https" HTTPS=on\n' > /etc/apache2/conf-enabled/forwarded-proto.conf
+
 # --- PHP runtime tuning suitable for OMP (large uploads, etc.) ---
 RUN { \
         echo 'memory_limit = 512M'; \
