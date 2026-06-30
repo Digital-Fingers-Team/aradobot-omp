@@ -30,12 +30,18 @@ RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
         xsl \
         opcache
 
-# --- Apache: normalize the MPM ---
+# --- Apache: force prefork as the ONLY MPM ---
 # mod_php (this image runs PHP as an Apache module) requires the prefork MPM.
-# If more than one MPM is enabled Apache refuses to start with
-# "Configuration error: More than one MPM loaded." Force prefork only.
-RUN a2dismod mpm_event mpm_worker 2>/dev/null || true \
-    && a2enmod mpm_prefork
+# If more than one MPM is loaded Apache refuses to start with
+# "Configuration error: More than one MPM loaded." a2dismod/a2enmod are
+# non-deterministic (they no-op on failure), so we manipulate the symlinks
+# directly: drop every mpm_* link, then enable prefork alone. This is
+# idempotent and independent of whatever the base image / build cache left.
+RUN rm -f /etc/apache2/mods-enabled/mpm_*.load /etc/apache2/mods-enabled/mpm_*.conf \
+    && ln -sf /etc/apache2/mods-available/mpm_prefork.load /etc/apache2/mods-enabled/mpm_prefork.load \
+    && ln -sf /etc/apache2/mods-available/mpm_prefork.conf /etc/apache2/mods-enabled/mpm_prefork.conf \
+    && echo "Enabled MPMs:" && ls -1 /etc/apache2/mods-enabled/mpm_*.load \
+    && apache2ctl -t -D DUMP_MODULES 2>/dev/null | grep -i mpm
 
 # --- Apache: enable rewrite + allow .htaccess overrides ---
 RUN a2enmod rewrite
