@@ -76,7 +76,23 @@ RUN mkdir -p /var/www/files \
     && chown -R www-data:www-data /var/www/files /var/www/html/cache /var/www/html/public \
     && chmod -R 0755 /var/www/files /var/www/html/cache
 
-# Belt-and-suspenders: re-assert prefork as the only MPM at container start, in
-# case any build step (or platform buildpack) re-enabled a second MPM. Then hand
-# off to the normal Apache foreground process.
-CMD ["sh", "-c", "rm -f /etc/apache2/mods-enabled/mpm_event.* /etc/apache2/mods-enabled/mpm_worker.* 2>/dev/null; a2enmod mpm_prefork >/dev/null 2>&1 || true; exec apache2-foreground"]
+# Build a tokenised config template from OMP's shipped template. The entrypoint
+# fills these tokens from environment at boot, so the image carries no secrets
+# and config.inc.php is never required in the build context.
+RUN cp config.TEMPLATE.inc.php config.docker.inc.php \
+    && sed -i \
+        -e 's|^base_url = .*|base_url = "__OMP_BASE_URL__"|' \
+        -e 's|^installed = .*|installed = __OMP_INSTALLED__|' \
+        -e 's|^driver = mysqli|driver = __OMP_DB_DRIVER__|' \
+        -e 's|^host = localhost|host = __OMP_DB_HOST__|' \
+        -e 's|^username = omp|username = __OMP_DB_USER__|' \
+        -e 's|^password = omp|password = __OMP_DB_PASSWORD__|' \
+        -e 's|^name = omp|name = __OMP_DB_NAME__|' \
+        -e 's|^files_dir = files|files_dir = __OMP_FILES_DIR__|' \
+        config.docker.inc.php
+
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+# Entrypoint renders config from env, fixes the MPM, then runs Apache.
+CMD ["/usr/local/bin/docker-entrypoint.sh"]

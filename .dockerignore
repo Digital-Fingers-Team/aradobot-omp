@@ -9,3 +9,6 @@ SETUP.md
 # Runtime cache (recreated in the Dockerfile) and uploaded files
 cache/
 files/
+# Never bake a real config (with secrets) into the image — the entrypoint
+# renders config.inc.php from environment at boot.
+config.inc.php
