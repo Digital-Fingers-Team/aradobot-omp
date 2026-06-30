@@ -75,3 +75,8 @@ RUN mkdir -p /var/www/files \
         /var/www/html/public \
     && chown -R www-data:www-data /var/www/files /var/www/html/cache /var/www/html/public \
     && chmod -R 0755 /var/www/files /var/www/html/cache
+
+# Belt-and-suspenders: re-assert prefork as the only MPM at container start, in
+# case any build step (or platform buildpack) re-enabled a second MPM. Then hand
+# off to the normal Apache foreground process.
+CMD ["sh", "-c", "rm -f /etc/apache2/mods-enabled/mpm_event.* /etc/apache2/mods-enabled/mpm_worker.* 2>/dev/null; a2enmod mpm_prefork >/dev/null 2>&1 || true; exec apache2-foreground"]
