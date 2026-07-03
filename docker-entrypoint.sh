@@ -12,6 +12,8 @@ if [ -f "$TEMPLATE" ]; then
     $tpl = file_get_contents("'"$TEMPLATE"'");
     $map = [
       "__OMP_BASE_URL__"     => getenv("OMP_BASE_URL")     ?: "http://localhost",
+      "__OMP_APP_KEY__"      => getenv("OMP_APP_KEY")      ?: "",
+      "__OMP_SALT__"         => getenv("OMP_SALT")         ?: "YouMustSetASecretKeyHere!!",
       "__OMP_INSTALLED__"    => getenv("OMP_INSTALLED")    ?: "Off",
       "__OMP_DB_DRIVER__"    => getenv("OMP_DB_DRIVER")    ?: "mysqli",
       "__OMP_DB_HOST__"      => getenv("OMP_DB_HOST")      ?: "localhost",
@@ -19,6 +21,7 @@ if [ -f "$TEMPLATE" ]; then
       "__OMP_DB_PASSWORD__"  => getenv("OMP_DB_PASSWORD")  ?: "omp",
       "__OMP_DB_NAME__"      => getenv("OMP_DB_NAME")      ?: "omp",
       "__OMP_FILES_DIR__"    => getenv("OMP_FILES_DIR")    ?: "/var/www/files",
+      "__OMP_SSO_SECRET__"   => getenv("OMP_SSO_SECRET")   ?: "",
     ];
     file_put_contents("'"$CONFIG"'", strtr($tpl, $map));
   '

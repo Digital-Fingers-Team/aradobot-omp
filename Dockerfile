@@ -87,14 +87,17 @@ RUN mkdir -p /var/www/files \
 RUN cp config.TEMPLATE.inc.php config.docker.inc.php \
     && sed -i \
         -e 's|^base_url = .*|base_url = "__OMP_BASE_URL__"|' \
+        -e 's|^app_key =.*|app_key = __OMP_APP_KEY__|' \
         -e 's|^installed = .*|installed = __OMP_INSTALLED__|' \
+        -e 's|^salt = .*|salt = "__OMP_SALT__"|' \
         -e 's|^driver = mysqli|driver = __OMP_DB_DRIVER__|' \
         -e 's|^host = localhost|host = __OMP_DB_HOST__|' \
         -e 's|^username = omp|username = __OMP_DB_USER__|' \
         -e 's|^password = omp|password = __OMP_DB_PASSWORD__|' \
         -e 's|^name = omp|name = __OMP_DB_NAME__|' \
         -e 's|^files_dir = files|files_dir = __OMP_FILES_DIR__|' \
-        config.docker.inc.php
+        config.docker.inc.php \
+    && printf '\n[bookbot]\n; Shared secret for bookbot/aradobot SSO tokens (must match the app OMP_SSO_SECRET).\nsso_secret = "__OMP_SSO_SECRET__"\n' >> config.docker.inc.php
 
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
