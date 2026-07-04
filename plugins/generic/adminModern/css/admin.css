@@ -1,0 +1,221 @@
+/**
+ * plugins/generic/adminModern/css/admin.css
+ *
+ * Copyright (c) 2024 Arado / Digital Fingers
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * Re-skin of the OMP editorial backend to match the public "Modern" theme.
+ * Loaded last in the `backend` context so these rules win the cascade. Most of
+ * the recolour is done by overriding PKP's design-system custom properties;
+ * the header, logo and typography are layered on top.
+ */
+
+/* ==========================================================================
+   1. Retint the PKP design tokens → the whole Vue UI follows automatically
+   (buttons, links, active nav items, tab underlines, focus rings, form
+   fields, badges, etc. all key off these variables).
+   ========================================================================== */
+:root {
+	--color-primary:            #1c6b42;  /* moss — matches theme --moss */
+	--color-hover:              #2e9e5f;  /* bright moss — matches --moss-2 */
+
+	--background-color-default:  #eef1ea; /* soft warm-grey page background */
+	--background-color-tertiary: rgba(28, 107, 66, .06);
+
+	/* Modern theme tokens, reused below */
+	--am-green-deep: #0d3d26;
+	--am-green-mid:  #17603b;
+	--am-green-lift: #227a4a;
+	--am-green-grad: linear-gradient(135deg, #0d3d26 0%, #17603b 55%, #227a4a 100%);
+	--am-accent:     #7fd18f;
+	--am-line:       #e2ddd0;
+	--am-font-body:  "IBM Plex Sans", "IBM Plex Sans Arabic", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+	--am-font-head:  "Lora", "Noto Naskh Arabic", Georgia, serif;
+}
+
+/* ==========================================================================
+   2. Base typography
+   ========================================================================== */
+body.pkp_page_index,
+.app,
+.app__main {
+	font-family: var(--am-font-body);
+}
+.app__pageHeading,
+.app__page h1,
+.app__page > h1,
+.pkpHeader__title,
+.app__contextTitle {
+	font-family: var(--am-font-head) !important;
+	letter-spacing: -0.01em;
+}
+
+/* ==========================================================================
+   3. Top header — green gradient + Arado logo badge
+   ========================================================================== */
+.app__header {
+	background: var(--am-green-grad) !important;
+	min-height: 4rem;
+	padding-inline: 1rem;
+	box-shadow: 0 6px 24px rgba(13, 61, 38, .28);
+	border-bottom: 3px solid var(--am-accent);
+}
+
+/* Logo badge before the press title */
+.app__contextTitle {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	gap: .7rem;
+	padding-left: 3rem !important;
+	font-size: 1.2rem !important;
+	font-weight: 700;
+	color: #fff !important;
+	text-decoration: none;
+}
+.app__contextTitle::before {
+	content: "";
+	position: absolute;
+	left: 0; top: 50%;
+	transform: translateY(-50%);
+	width: 2.3rem; height: 2.3rem;
+	background: #fff url("../img/logo.jpeg") center / 82% no-repeat;
+	border-radius: 50%;
+	box-shadow: 0 2px 8px rgba(0,0,0,.28), inset 0 0 0 1px rgba(0,0,0,.05);
+}
+
+/* Header icons / actions → white, legible on the green */
+.app__header .app__headerAction,
+.app__header button,
+.app__header a,
+.app__header .fa,
+.app__header svg {
+	color: #fff;
+}
+.app__header .app__headerAction:hover {
+	background: rgba(255,255,255,.14);
+	border-radius: 8px;
+}
+
+/* ==========================================================================
+   4. Left navigation — carded, with a clear active state
+   ========================================================================== */
+.app__body > nav,
+.app__nav {
+	background: #ffffff;
+	border-right: 1px solid var(--am-line);
+}
+.app__body > nav a,
+.app__nav a {
+	border-radius: 8px;
+	transition: background-color .15s ease, color .15s ease;
+}
+.app__body > nav a:hover,
+.app__nav a:hover {
+	background: var(--background-color-tertiary);
+	color: var(--color-primary);
+}
+/* Active nav item (PKP marks it with aria-current or an -isCurrent class) */
+.app__body > nav a[aria-current],
+.app__nav a[aria-current],
+.app__nav .app__navItem--isCurrent > a {
+	background: var(--color-primary);
+	color: #fff !important;
+}
+
+/* ==========================================================================
+   5. Content surfaces — soften panels & cards
+   ========================================================================== */
+.app__main {
+	background: var(--background-color-default);
+}
+.pkpListPanel,
+.pkpTab,
+.pkpFormPage,
+.pkpForm,
+.app__contentPanel,
+.listPanel,
+.pkpTable {
+	border-radius: 14px !important;
+	overflow: hidden;
+}
+.pkpListPanel,
+.app__contentPanel {
+	box-shadow: 0 1px 2px rgba(22,22,15,.05), 0 10px 30px rgba(22,22,15,.06);
+	border: 1px solid var(--am-line);
+}
+
+/* Page heading accent rule */
+.app__pageHeading {
+	position: relative;
+	padding-bottom: .6rem;
+}
+.app__pageHeading::after {
+	content: "";
+	position: absolute; left: 0; bottom: 0;
+	width: 62px; height: 4px;
+	background: var(--am-accent);
+	border-radius: 4px;
+}
+
+/* ==========================================================================
+   6. Buttons, tabs, links polish
+   ========================================================================== */
+.pkpButton {
+	border-radius: 999px !important;
+	font-weight: 600;
+}
+.pkpButton--isPrimary,
+.pkpButton.-isPrimary {
+	background: var(--color-primary);
+	border-color: var(--color-primary);
+}
+.pkpButton--isPrimary:hover,
+.pkpButton.-isPrimary:hover {
+	background: var(--color-hover);
+	border-color: var(--color-hover);
+}
+
+/* Tab active underline */
+.pkpTabs__button[aria-selected="true"],
+.pkpTabs__buttons .-isActive {
+	color: var(--color-primary);
+	border-bottom-color: var(--color-primary);
+}
+
+a { color: var(--color-primary); }
+a:hover { color: var(--color-hover); }
+
+/* Form field focus */
+.pkpFormField input:focus,
+.pkpFormField textarea:focus,
+.pkpFormField select:focus,
+input:focus, textarea:focus, select:focus {
+	border-color: var(--color-primary);
+	box-shadow: 0 0 0 3px rgba(47, 158, 95, .35);
+}
+
+/* Breadcrumbs */
+.app__breadcrumbs {
+	font-size: .85rem;
+}
+.app__breadcrumbs a { color: var(--color-primary); }
+
+/* ==========================================================================
+   7. RTL tweaks (Arabic backend)
+   ========================================================================== */
+[dir="rtl"] .app__contextTitle {
+	padding-left: 0 !important;
+	padding-right: 3rem !important;
+}
+[dir="rtl"] .app__contextTitle::before {
+	left: auto; right: 0;
+}
+[dir="rtl"] .app__pageHeading::after {
+	left: auto; right: 0;
+}
+[dir="rtl"] .app__body > nav,
+[dir="rtl"] .app__nav {
+	border-right: 0;
+	border-left: 1px solid var(--am-line);
+}

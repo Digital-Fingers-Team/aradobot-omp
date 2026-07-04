@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01T00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.themes.modern.name"
+msgstr "قالب حديث"
+
+msgid "plugins.themes.modern.description"
+msgstr "قالب أنيق يُبرِز أغلفة الكتب، بلوحة ألوان بلون الطحلب والورق، وعناوين بخط مُذيَّل، مع دعم كامل للاتجاه من اليمين إلى اليسار وإتاحة وصول وفق معيار WCAG AA."
+
+msgid "plugins.themes.modern.option.accent.label"
+msgstr "لون التمييز"
+
+msgid "plugins.themes.modern.option.accent.description"
+msgstr "لون التمييز المستخدم في الترويسة والروابط والأزرار والعناصر المميّزة."
+
+msgid "plugins.themes.modern.option.hero.label"
+msgstr "واجهة الصفحة الرئيسية"
+
+msgid "plugins.themes.modern.option.hero.description"
+msgstr "إظهار شريط تعريفي كبير يحوي اسم دار النشر ووصفها في أعلى الصفحة الرئيسية."
+
+msgid "plugins.themes.modern.option.hero.option"
+msgstr "إظهار الشريط التعريفي في الصفحة الرئيسية"
