@@ -96,6 +96,7 @@ RUN cp config.TEMPLATE.inc.php config.docker.inc.php \
         -e 's|^password = omp|password = __OMP_DB_PASSWORD__|' \
         -e 's|^name = omp|name = __OMP_DB_NAME__|' \
         -e 's|^files_dir = files|files_dir = __OMP_FILES_DIR__|' \
+        -e 's|^api_key_secret = .*|api_key_secret = "__OMP_API_KEY_SECRET__"|' \
         config.docker.inc.php \
     && printf '\n[bookbot]\n; Shared secret for bookbot/aradobot SSO tokens (must match the app OMP_SSO_SECRET).\nsso_secret = "__OMP_SSO_SECRET__"\n' >> config.docker.inc.php
 

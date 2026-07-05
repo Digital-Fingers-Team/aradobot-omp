@@ -45,6 +45,10 @@ services:
       # Shared secret for bookbot/aradobot SSO login tokens. MUST match the
       # OMP_SSO_SECRET in the aradobot app's .env, or SSO tokens fail to verify.
       OMP_SSO_SECRET: "303b27a984ea6dad0dcdbd19a74b11fcc595c7bf35d3cb4ad1c3b9f8d0100c34"
+      # Signs/verifies OMP API tokens (Profile -> API Key). Without this, every
+      # request using an API token 500s with "administrator has not configured
+      # a secret key" — this is OMP's own JWT secret, unrelated to OMP_SSO_SECRET.
+      OMP_API_KEY_SECRET: "76ff594ebfc1d9a1717d535eb8e9dcc258f5535669ea9a5cd1c986918c86d3ef"
     ports:
       - "8091:80"
     volumes:

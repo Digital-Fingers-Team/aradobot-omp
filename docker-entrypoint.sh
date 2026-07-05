@@ -22,6 +22,7 @@ if [ -f "$TEMPLATE" ]; then
       "__OMP_DB_NAME__"      => getenv("OMP_DB_NAME")      ?: "omp",
       "__OMP_FILES_DIR__"    => getenv("OMP_FILES_DIR")    ?: "/var/www/files",
       "__OMP_SSO_SECRET__"   => getenv("OMP_SSO_SECRET")   ?: "",
+      "__OMP_API_KEY_SECRET__" => getenv("OMP_API_KEY_SECRET") ?: "",
     ];
     file_put_contents("'"$CONFIG"'", strtr($tpl, $map));
   '
