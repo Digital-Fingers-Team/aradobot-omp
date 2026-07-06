@@ -39,7 +39,7 @@ class ModernThemePlugin extends ThemePlugin
         $this->addOption('accentColour', 'FieldColor', [
             'label' => __('plugins.themes.modern.option.accent.label'),
             'description' => __('plugins.themes.modern.option.accent.description'),
-            'default' => '#235c3c',
+            'default' => '#1e6b47',
         ]);
 
         // Optional hero band on the homepage.
@@ -60,24 +60,24 @@ class ModernThemePlugin extends ThemePlugin
         // ------------------------------------------------------------------
         $accent = $this->getOption('accentColour');
         if (!preg_match('/^#[0-9a-fA-F]{3,6}$/', (string) $accent)) {
-            $accent = '#235c3c';
+            $accent = '#1e6b47';
         }
 
-        // Font stacks (Lora display + IBM Plex Sans body) with Arabic fallbacks.
-        $bodyFont = '"IBM Plex Sans", "IBM Plex Sans Arabic", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif';
-        $headFont = '"Lora", "Noto Naskh Arabic", Georgia, "Times New Roman", serif';
+        // Font stacks (Lora everywhere) with Arabic fallback.
+        $bodyFont = '"Lora", "IBM Plex Sans Arabic", Georgia, "Times New Roman", serif';
+        $headFont = '"Lora", "IBM Plex Sans Arabic", Georgia, "Times New Roman", serif';
 
         $lessVariables = [
-            // Palette (moss / paper / ink / line) — kept in sync with the CSS
-            // custom properties in styles/modern.less.
-            '@bg: #f6f4ec;',                      // paper
-            '@bg-shade: #e2ddd0;',                // line
-            '@bg-base: #17603b;',                 // green (header background base)
-            '@primary: ' . $accent . ';',        // moss (links / buttons)
+            // Palette (paper / ink / deep-green / gold) — kept in sync with the
+            // CSS custom properties in styles/modern.less.
+            '@bg: #f7f4ec;',                      // paper
+            '@bg-shade: #ddd6c4;',                // line
+            '@bg-base: #0e3323;',                 // green-950 (header background base)
+            '@primary: ' . $accent . ';',        // green-700 (links / buttons)
             '@primary-lift: lighten(' . $accent . ', 8%);',
-            '@text: #16160f;',                    // ink
-            '@text-light: rgba(22,22,15,0.60);',
-            '@bg-border-color: #e2ddd0;',
+            '@text: #1c211d;',                    // ink
+            '@text-light: #5c6a5f;',
+            '@bg-border-color: #ddd6c4;',
             '@text-bg-base: #ffffff;',
             // Typography
             '@font: ' . $bodyFont . ';',
@@ -93,7 +93,7 @@ class ModernThemePlugin extends ThemePlugin
         // an empty baseUrl stops the theme resolving it inside the plugin dir.
         $this->addStyle(
             'modernFonts',
-            'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Naskh+Arabic:wght@500;600;700&display=swap',
+            'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap',
             ['baseUrl' => '']
         );
 
