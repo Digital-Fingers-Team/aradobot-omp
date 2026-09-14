@@ -1,13 +1,13 @@
 services:
   omp-db:
-    image: mariadb:10.11
+    image: docker.io/library/mariadb:10.11
     container_name: omp-db
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: omp_root_pass
-      MYSQL_DATABASE: omp
-      MYSQL_USER: omp
-      MYSQL_PASSWORD: omp_pass
+      MYSQL_ROOT_PASSWORD: "${OMP_DB_ROOT_PASSWORD:?set in .env}"
+      MYSQL_DATABASE: "${OMP_DB_NAME:-omp}"
+      MYSQL_USER: "${OMP_DB_USER:-omp}"
+      MYSQL_PASSWORD: "${OMP_DB_PASSWORD:?set in .env}"
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     volumes:
       - omp-db-data:/var/lib/mysql
@@ -19,44 +19,33 @@ services:
 
   omp-app:
     build:
-      # Build context is this repo; the code is COPIED into the image (see Dockerfile).
       context: .
       dockerfile: Dockerfile
+    image: localhost/aradobot_omp:latest
     container_name: omp-app
     restart: unless-stopped
     depends_on:
       omp-db:
         condition: service_healthy
     environment:
-      # The entrypoint rebuilds config.inc.php from these on every boot.
-      # Without them it falls back to localhost/omp/Off and the app 500s.
-      OMP_BASE_URL: "http://localhost:8091"
-      OMP_INSTALLED: "On"
-      # App encryption key (Laravel) + password-reset salt. Kept fixed so config
-      # survives entrypoint re-rendering on every boot.
-      OMP_APP_KEY: "base64:brWfIkXFfiu1KpewjQwOQWsk/YYSkYN8DVJpBnaYFZ4="
-      OMP_SALT: "hQ6iEhNP59Vk6RM50cW2m2QaT7YZZato"
-      OMP_DB_DRIVER: mysqli
-      OMP_DB_HOST: omp-db
-      OMP_DB_USER: omp
-      OMP_DB_PASSWORD: omp_pass
-      OMP_DB_NAME: omp
-      OMP_FILES_DIR: /var/www/files
-      # Shared secret for bookbot/aradobot SSO login tokens. MUST match the
-      # OMP_SSO_SECRET in the aradobot app's .env, or SSO tokens fail to verify.
-      OMP_SSO_SECRET: "303b27a984ea6dad0dcdbd19a74b11fcc595c7bf35d3cb4ad1c3b9f8d0100c34"
-      # Signs/verifies OMP API tokens (Profile -> API Key). Without this, every
-      # request using an API token 500s with "administrator has not configured
-      # a secret key" — this is OMP's own JWT secret, unrelated to OMP_SSO_SECRET.
-      OMP_API_KEY_SECRET: "76ff594ebfc1d9a1717d535eb8e9dcc258f5535669ea9a5cd1c986918c86d3ef"
+      OMP_BASE_URL: "${OMP_BASE_URL:?set in .env}"
+      OMP_INSTALLED: "${OMP_INSTALLED:-Off}"
+      OMP_APP_KEY: "${OMP_APP_KEY:?set in .env}"
+      OMP_SALT: "${OMP_SALT:?set in .env}"
+      OMP_DB_DRIVER: "${OMP_DB_DRIVER:-mysqli}"
+      OMP_DB_HOST: "${OMP_DB_HOST:-omp-db}"
+      OMP_DB_USER: "${OMP_DB_USER:-omp}"
+      OMP_DB_PASSWORD: "${OMP_DB_PASSWORD:?set in .env}"
+      OMP_DB_NAME: "${OMP_DB_NAME:-omp}"
+      OMP_FILES_DIR: "${OMP_FILES_DIR:-/var/www/files}"
+      OMP_SSO_SECRET: "${OMP_SSO_SECRET:?must match aradobot .env}"
+      OMP_API_KEY_SECRET: "${OMP_API_KEY_SECRET:?set in .env}"
     ports:
       - "8091:80"
     volumes:
-      # Persist uploaded files across rebuilds (code itself is baked into image).
       - omp-files:/var/www/files
 
 volumes:
-  # Fixed names so the data survives regardless of the compose project/dir name.
   omp-db-data:
     name: omp-db-data
   omp-files:
