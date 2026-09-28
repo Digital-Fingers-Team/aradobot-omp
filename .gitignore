@@ -15,3 +15,8 @@ config.inc.php
 *.log
 .DS_Store
 Thumbs.db
+
+# local secrets (never commit)
+.env
+.env.bak.*
+.omp-admin-credentials
