@@ -44,6 +44,9 @@ services:
       - "8091:80"
     volumes:
       - omp-files:/var/www/files
+      - ./apache-omp-prefix.conf:/etc/apache2/conf-enabled/omp-prefix.conf:ro,Z
+      - ./header-override.tpl:/var/www/html/templates/frontend/components/header.tpl:ro,Z
+      - ./backend-override.tpl:/var/www/html/lib/pkp/templates/layouts/backend.tpl:ro,Z
 
 volumes:
   omp-db-data:
